@@ -1,28 +1,12 @@
-2017-03-24 05:17:26 CMaNGOS TBC/0.0 (* * - *) for Win64 (little-endian) [realm-daemon]
-2017-03-24 05:17:26 <Ctrl-C> to stop.
+2017-03-24 07:32:47 CMaNGOS TBC/0.0 (* * - *) for Win64 (little-endian) [realm-daemon]
+2017-03-24 07:32:47 <Ctrl-C> to stop.
 
-2017-03-24 05:17:26 Using configuration file realmd.conf.
-2017-03-24 05:17:26 Login Database total connections: 2
-2017-03-24 05:17:26 MySQL client library: 5.1.49
-2017-03-24 05:17:26 MySQL server ver: 5.5.5-10.1.21-MariaDB 
-2017-03-24 05:17:26 MySQL client library: 5.1.49
-2017-03-24 05:17:26 MySQL server ver: 5.5.5-10.1.21-MariaDB 
-2017-03-24 05:17:26 Added realm id 1, name 'Project-Reign'
-2017-03-24 05:17:26 realmd process priority class set to HIGH
-2017-03-24 05:17:26 
-2017-03-24 05:24:14 ERROR:SQL: SELECT unbandate FROM ip_banned WHERE (unbandate = bandate OR unbandate > UNIX_TIMESTAMP()) AND ip = '81.229.74.49'
-2017-03-24 05:24:14 ERROR:query ERROR: MySQL server has gone away
-2017-03-24 05:24:14 ERROR:SQL: SELECT sha_pass_hash,id,locked,last_ip,gmlevel,v,s FROM account WHERE username = 'HENRY91'
-2017-03-24 05:24:14 ERROR:query ERROR: MySQL server has gone away
-2017-03-24 05:24:18 ERROR:SQL: SELECT unbandate FROM ip_banned WHERE (unbandate = bandate OR unbandate > UNIX_TIMESTAMP()) AND ip = '81.229.74.49'
-2017-03-24 05:24:18 ERROR:query ERROR: MySQL server has gone away
-2017-03-24 05:24:18 ERROR:SQL: SELECT sha_pass_hash,id,locked,last_ip,gmlevel,v,s FROM account WHERE username = 'HENRY91'
-2017-03-24 05:24:18 ERROR:query ERROR: MySQL server has gone away
-2017-03-24 05:24:30 ERROR:SQL: SELECT unbandate FROM ip_banned WHERE (unbandate = bandate OR unbandate > UNIX_TIMESTAMP()) AND ip = '81.229.74.49'
-2017-03-24 05:24:30 ERROR:query ERROR: MySQL server has gone away
-2017-03-24 05:24:30 ERROR:SQL: SELECT sha_pass_hash,id,locked,last_ip,gmlevel,v,s FROM account WHERE username = 'HANK'
-2017-03-24 05:24:30 ERROR:query ERROR: MySQL server has gone away
-2017-03-24 05:24:36 ERROR:SQL: SELECT unbandate FROM ip_banned WHERE (unbandate = bandate OR unbandate > UNIX_TIMESTAMP()) AND ip = '81.229.74.49'
-2017-03-24 05:24:36 ERROR:query ERROR: MySQL server has gone away
-2017-03-24 05:24:36 ERROR:SQL: SELECT sha_pass_hash,id,locked,last_ip,gmlevel,v,s FROM account WHERE username = 'HENRY'
-2017-03-24 05:24:36 ERROR:query ERROR: MySQL server has gone away
+2017-03-24 07:32:47 Using configuration file realmd.conf.
+2017-03-24 07:32:47 Login Database total connections: 2
+2017-03-24 07:32:47 MySQL client library: 5.1.49
+2017-03-24 07:32:47 MySQL server ver: 5.7.14 
+2017-03-24 07:32:47 MySQL client library: 5.1.49
+2017-03-24 07:32:47 MySQL server ver: 5.7.14 
+2017-03-24 07:32:47 Added realm id 1, name 'Project-Reign'
+2017-03-24 07:32:47 realmd process priority class set to HIGH
+2017-03-24 07:32:47 

@@ -1,6 +1,6 @@
-2017-03-24 05:17:28 CMaNGOS TBC/0.0 (* * - *) for Win64 (little-endian) [world-daemon]
-2017-03-24 05:17:28 <Ctrl-C> to stop.
-2017-03-24 05:17:28 
+2017-03-24 07:32:52 CMaNGOS TBC/0.0 (* * - *) for Win64 (little-endian) [world-daemon]
+2017-03-24 07:32:52 <Ctrl-C> to stop.
+2017-03-24 07:32:52 
 
        _____     __  __       _   _  _____  ____   _____ 
       / ____|   |  \/  |     | \ | |/ ____|/ __ \ / ____|
@@ -11,1446 +11,159 @@
       http://cmangos.net\__,_|     Doing things right!
 
 
-2017-03-24 05:17:28 Using configuration file mangosd.conf.
-2017-03-24 05:17:28 World Database total connections: 2
-2017-03-24 05:17:28 MySQL client library: 5.1.49
-2017-03-24 05:17:28 MySQL server ver: 5.5.5-10.1.21-MariaDB 
-2017-03-24 05:17:28 MySQL client library: 5.1.49
-2017-03-24 05:17:28 MySQL server ver: 5.5.5-10.1.21-MariaDB 
-2017-03-24 05:17:28 Character Database total connections: 2
-2017-03-24 05:17:28 MySQL client library: 5.1.49
-2017-03-24 05:17:28 MySQL server ver: 5.5.5-10.1.21-MariaDB 
-2017-03-24 05:17:28 MySQL client library: 5.1.49
-2017-03-24 05:17:28 MySQL server ver: 5.5.5-10.1.21-MariaDB 
-2017-03-24 05:17:28 Login Database total connections: 2
-2017-03-24 05:17:28 MySQL client library: 5.1.49
-2017-03-24 05:17:28 MySQL server ver: 5.5.5-10.1.21-MariaDB 
-2017-03-24 05:17:28 MySQL client library: 5.1.49
-2017-03-24 05:17:28 MySQL server ver: 5.5.5-10.1.21-MariaDB 
-2017-03-24 05:17:28 
-2017-03-24 05:17:28 Realm running as realm ID 1
-2017-03-24 05:17:28 
-2017-03-24 05:17:28 Using World DB: TBC-DB 1.5.0 'PRE-RELEASE BUILD' for CMaNGOS-TBC
-2017-03-24 05:17:28 Using creature EventAI: ACID 2.4.3 (The Burning Crusades) for CMaNGOS-TBC (2.4.3 Client)
-2017-03-24 05:17:28 
-2017-03-24 05:17:28 Using DataDir ./
-2017-03-24 05:17:28 WORLD: VMap support included. LineOfSight:1, getHeight:1, indoorCheck:1
-2017-03-24 05:17:28 WORLD: VMap data directory is: ./vmaps
-2017-03-24 05:17:28 WORLD: MMap pathfinding enabled
-2017-03-24 05:17:28 
-2017-03-24 05:17:28 Loading MaNGOS strings...
-2017-03-24 05:17:28 Loading texts from mangos_string
-2017-03-24 05:17:28 >> Loaded 851 MaNGOS strings from table mangos_string
-2017-03-24 05:17:28 
-2017-03-24 05:17:29 Loading spell_template...
-2017-03-24 05:17:30 >> Loaded 28355 spell_dbc records
-2017-03-24 05:17:30 
-2017-03-24 05:17:30 Initialize DBC data stores...
-2017-03-24 05:17:30 >> Initialized 66 data stores
-2017-03-24 05:17:30 
-2017-03-24 05:17:30 Using enUS DBC Locale as default. All available DBC locales: enUS 
-2017-03-24 05:17:30 
-2017-03-24 05:17:30 Loading Script Names...
-2017-03-24 05:17:30 >> Loaded 697 Script Names
-2017-03-24 05:17:30 
-2017-03-24 05:17:30 Loading WorldTemplate...
-2017-03-24 05:17:30 >> Loaded 3 World Template definitions
-2017-03-24 05:17:30 
-2017-03-24 05:17:30 Loading InstanceTemplate...
-2017-03-24 05:17:30 >> Loaded 58 Instance Template definitions
-2017-03-24 05:17:30 
-2017-03-24 05:17:30 Loading SkillLineAbilityMultiMap Data...
-2017-03-24 05:17:30 >> Loaded 7025 SkillLineAbility MultiMap Data
-2017-03-24 05:17:30 
-2017-03-24 05:17:30 Loading SkillRaceClassInfoMultiMap Data...
-2017-03-24 05:17:30 >> Loaded 168 SkillRaceClassInfo MultiMap Data
-2017-03-24 05:17:30 
-2017-03-24 05:17:30 Cleaning up instances...
-2017-03-24 05:17:31 >> Instances cleaned up
-2017-03-24 05:17:31 
-2017-03-24 05:17:31 Packing instances...
-2017-03-24 05:17:31 >> Instance numbers remapped, next instance id is 1
-2017-03-24 05:17:31 
-2017-03-24 05:17:31 Packing groups...
-2017-03-24 05:17:31 >> Group Ids remapped, next group id is 1
-2017-03-24 05:17:31 
-2017-03-24 05:17:31 
-2017-03-24 05:17:31 Loading Page Texts...
-2017-03-24 05:17:31 >> Loaded 1430 page texts
-2017-03-24 05:17:31 
-2017-03-24 05:17:31 Loading Game Object Templates...
-2017-03-24 05:17:31 >> Loaded 13774 game object templates
-2017-03-24 05:17:31 
-2017-03-24 05:17:31 Loading GameObject models...
-2017-03-24 05:17:31 
-2017-03-24 05:17:31 Loading Spell Chain Data...
-2017-03-24 05:17:31 >> Loaded 3718 spell chain records (2300 from DBC data with 2 req field updates, and 1418 loaded from table)
-2017-03-24 05:17:31 
-2017-03-24 05:17:31 Loading Spell Elixir types...
-2017-03-24 05:17:31 >> Loaded 106 spell elixir definitions
-2017-03-24 05:17:31 
-2017-03-24 05:17:31 Loading Spell Learn Skills...
-2017-03-24 05:17:31 >> Loaded 78 Spell Learn Skills from DBC
-2017-03-24 05:17:31 
-2017-03-24 05:17:31 Loading Spell Learn Spells...
-2017-03-24 05:17:31 >> Loaded 17 spell learn spells + 477 found in DBC
-2017-03-24 05:17:31 
-2017-03-24 05:17:31 Loading Spell Proc Event conditions...
-2017-03-24 05:17:31 >> Loaded 331 extra spell proc event conditions +14 custom proc (inc. +8 custom ranks)
-2017-03-24 05:17:31 
-2017-03-24 05:17:31 Loading Spell Bonus Data...
-2017-03-24 05:17:31 >> Loaded 135 extra spell bonus data
-2017-03-24 05:17:31 
-2017-03-24 05:17:31 Loading Spell Proc Item Enchant...
-2017-03-24 05:17:31 >> Loaded 4 proc item enchant definitions
-2017-03-24 05:17:31 
-2017-03-24 05:17:31 Loading Aggro Spells Definitions...
-2017-03-24 05:17:31 >> Loaded 151 spell threat entries
-2017-03-24 05:17:31 
-2017-03-24 05:17:31 Loading NPC Texts...
-2017-03-24 05:17:31 >> Loaded 5887 npc texts
-2017-03-24 05:17:31 
-2017-03-24 05:17:31 Loading Item Random Enchantments Table...
-2017-03-24 05:17:31 >> Loaded 28408 Item Enchantment definitions
-2017-03-24 05:17:31 
-2017-03-24 05:17:31 Loading Item Templates...
-2017-03-24 05:17:32 ERROR:Item (Entry: 23247) has wrong ExtraFlags (2) with unused bits set
-2017-03-24 05:17:32 ERROR:Item (Entry: 23379) has wrong ExtraFlags (2) with unused bits set
-2017-03-24 05:17:32 >> Loaded 24985 item prototypes
-2017-03-24 05:17:32 
-2017-03-24 05:17:32 Loading Item Texts...
-2017-03-24 05:17:32 
-2017-03-24 05:17:32 >> Loaded 0 item pages
-2017-03-24 05:17:32 Loading Creature Model Based Info Data...
-2017-03-24 05:17:32 >> Loaded 17001 creature model based info
-2017-03-24 05:17:32 
-2017-03-24 05:17:32 Loading Equipment templates...
-2017-03-24 05:17:32 >> Loaded 8368 equipment template
-2017-03-24 05:17:32 
-2017-03-24 05:17:32 >> Loaded 1091 equipment template (deprecated format)
-2017-03-24 05:17:32 
-2017-03-24 05:17:32 Loading Creature Stats...
-2017-03-24 05:17:32 >> Found 225 creature stats definitions.
-2017-03-24 05:17:32 
-2017-03-24 05:17:32 Loading Creature templates...
-2017-03-24 05:17:32 >> Loaded 18790 creature definitions
-2017-03-24 05:17:32 
-2017-03-24 05:17:32 Loading Creature template spells...
-2017-03-24 05:17:32 >> Loaded 4408 creature_template_spells definitions
-2017-03-24 05:17:32 
-2017-03-24 05:17:32 Loading Creature Model for race...
-2017-03-24 05:17:32 >> Loaded 13 creature_model_race entries
-2017-03-24 05:17:32 
-2017-03-24 05:17:32 Loading SpellsScriptTarget...
-2017-03-24 05:17:32 ERROR:Table `spell_script_target`: spellId 38096 listed for TargetEntry 17886 does not exist.
-2017-03-24 05:17:32 >> Loaded 1958 spell_script_target definitions
-2017-03-24 05:17:32 
-2017-03-24 05:17:32 Loading ItemRequiredTarget...
-2017-03-24 05:17:32 >> Loaded 60 Item required targets
-2017-03-24 05:17:32 
-2017-03-24 05:17:32 Loading Reputation Reward Rates...
-2017-03-24 05:17:32 >> Loaded 3 reputation_reward_rate
-2017-03-24 05:17:32 
-2017-03-24 05:17:32 Loading Creature Reputation OnKill Data...
-2017-03-24 05:17:32 >> Loaded 1454 creature award reputation definitions
-2017-03-24 05:17:32 
-2017-03-24 05:17:32 Loading Reputation Spillover Data...
-2017-03-24 05:17:32 >> Loaded 16 reputation_spillover_template
-2017-03-24 05:17:32 
-2017-03-24 05:17:32 Loading Points Of Interest Data...
-2017-03-24 05:17:32 >> Loaded 379 Points of Interest definitions
-2017-03-24 05:17:32 
-2017-03-24 05:17:32 Loading Pet Create Spells...
-2017-03-24 05:17:32 
-2017-03-24 05:17:32 >> Loaded 8 pet create spells from table and 474 from DBC
-2017-03-24 05:17:32 Loading Creature Data...
-2017-03-24 05:17:33 ERROR:Table `creature` have creature (GUID: 660097 Entry: 10238) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1220), `creature_template`.`MinLevelHealth`=5000.
-2017-03-24 05:17:33 ERROR:Table `creature` have creature (GUID: 140775 Entry: 8394) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (2762), `creature_template`.`MinLevelHealth`=2766.
-2017-03-24 05:17:33 ERROR:Table `creature` have creature (GUID: 128984 Entry: 15353) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1605), `creature_template`.`MinLevelHealth`=5100.
-2017-03-24 05:17:33 ERROR:Table `creature` have creature (GUID: 190307 Entry: 15105) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (852), `creature_template`.`MinLevelHealth`=1605.
-2017-03-24 05:17:33 ERROR:Table `creature` have creature (GUID: 160096 Entry: 9258) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (7599), `creature_template`.`MinLevelHealth`=7842.
-2017-03-24 05:17:33 ERROR:Table `creature` have creature (GUID: 160095 Entry: 9258) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (7599), `creature_template`.`MinLevelHealth`=7842.
-2017-03-24 05:17:33 ERROR:Table `creature` have creature (GUID: 3528 Entry: 10374) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (8352), `creature_template`.`MinLevelHealth`=8532.
-2017-03-24 05:17:33 ERROR:Table `creature` have creature (GUID: 3529 Entry: 10374) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (8352), `creature_template`.`MinLevelHealth`=8532.
-2017-03-24 05:17:33 ERROR:Table `creature` have creature (GUID: 3530 Entry: 10374) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (8352), `creature_template`.`MinLevelHealth`=8532.
-2017-03-24 05:17:33 ERROR:Table `creature` have creature (GUID: 3531 Entry: 10374) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (8352), `creature_template`.`MinLevelHealth`=8532.
-2017-03-24 05:17:33 ERROR:Table `creature` have creature (GUID: 3532 Entry: 10374) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (8352), `creature_template`.`MinLevelHealth`=8532.
-2017-03-24 05:17:33 ERROR:Table `creature` have creature (GUID: 3533 Entry: 10374) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (8352), `creature_template`.`MinLevelHealth`=8532.
-2017-03-24 05:17:33 ERROR:Table `creature` have creature (GUID: 3526 Entry: 10374) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (8352), `creature_template`.`MinLevelHealth`=8532.
-2017-03-24 05:17:33 ERROR:Table `creature` have creature (GUID: 190205 Entry: 14991) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1554), `creature_template`.`MinLevelHealth`=2471.
-2017-03-24 05:17:33 ERROR:Table `creature` have creature (GUID: 43520 Entry: 9200) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (12665), `creature_template`.`MinLevelHealth`=13070.
-2017-03-24 05:17:33 ERROR:Table `creature` have creature (GUID: 43517 Entry: 9200) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (12665), `creature_template`.`MinLevelHealth`=13070.
-2017-03-24 05:17:33 ERROR:Table `creature` have creature (GUID: 43512 Entry: 9200) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (12665), `creature_template`.`MinLevelHealth`=13070.
-2017-03-24 05:17:33 ERROR:Table `creature` have creature (GUID: 43510 Entry: 9200) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (12665), `creature_template`.`MinLevelHealth`=13070.
-2017-03-24 05:17:33 ERROR:Table `creature` have creature (GUID: 190306 Entry: 15105) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (852), `creature_template`.`MinLevelHealth`=1605.
-2017-03-24 05:17:33 ERROR:Table `creature` have creature (GUID: 43490 Entry: 9258) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (7599), `creature_template`.`MinLevelHealth`=7842.
-2017-03-24 05:17:33 ERROR:Table `creature` have creature (GUID: 190204 Entry: 14991) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1554), `creature_template`.`MinLevelHealth`=2471.
-2017-03-24 05:17:33 ERROR:Table `creature` have creature (GUID: 190141 Entry: 14991) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1554), `creature_template`.`MinLevelHealth`=2471.
-2017-03-24 05:17:33 ERROR:Table `creature` have creature (GUID: 190140 Entry: 14991) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1554), `creature_template`.`MinLevelHealth`=2471.
-2017-03-24 05:17:33 ERROR:Table `creature` have creature (GUID: 190139 Entry: 15102) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (573), `creature_template`.`MinLevelHealth`=7200.
-2017-03-24 05:17:33 ERROR:Table `creature` have creature (GUID: 190138 Entry: 15102) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (573), `creature_template`.`MinLevelHealth`=7200.
-2017-03-24 05:17:33 ERROR:Table `creature` have creature (GUID: 190133 Entry: 14991) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1554), `creature_template`.`MinLevelHealth`=2471.
-2017-03-24 05:17:33 ERROR:Table `creature` have creature (GUID: 190132 Entry: 14991) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1554), `creature_template`.`MinLevelHealth`=2471.
-2017-03-24 05:17:33 ERROR:Table `creature` have creature (GUID: 43463 Entry: 9258) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (7599), `creature_template`.`MinLevelHealth`=7842.
-2017-03-24 05:17:33 ERROR:Table `creature` have creature (GUID: 42888 Entry: 9258) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (7599), `creature_template`.`MinLevelHealth`=7842.
-2017-03-24 05:17:33 ERROR:Table `creature` have creature (GUID: 190203 Entry: 15102) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (573), `creature_template`.`MinLevelHealth`=7200.
-2017-03-24 05:17:33 ERROR:Table `creature` have creature (GUID: 151018 Entry: 16481) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (51660), `creature_template`.`MinLevelHealth`=73800.
-2017-03-24 05:17:33 ERROR:Table `creature` have creature (GUID: 151017 Entry: 16481) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (51660), `creature_template`.`MinLevelHealth`=73800.
-2017-03-24 05:17:33 ERROR:Table `creature` have creature (GUID: 151016 Entry: 16481) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (51660), `creature_template`.`MinLevelHealth`=73800.
-2017-03-24 05:17:33 ERROR:Table `creature` have creature (GUID: 151015 Entry: 16481) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (51660), `creature_template`.`MinLevelHealth`=73800.
-2017-03-24 05:17:33 ERROR:Table `creature` have creature (GUID: 151013 Entry: 16481) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (51660), `creature_template`.`MinLevelHealth`=73800.
-2017-03-24 05:17:33 ERROR:Table `creature` have creature (GUID: 151014 Entry: 16481) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (51660), `creature_template`.`MinLevelHealth`=73800.
-2017-03-24 05:17:33 ERROR:Table `creature` have creature (GUID: 151012 Entry: 16481) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (51660), `creature_template`.`MinLevelHealth`=73800.
-2017-03-24 05:17:33 ERROR:Table `creature` have creature (GUID: 151010 Entry: 16481) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (51660), `creature_template`.`MinLevelHealth`=73800.
-2017-03-24 05:17:33 ERROR:Table `creature` have creature (GUID: 151011 Entry: 16481) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (51660), `creature_template`.`MinLevelHealth`=73800.
-2017-03-24 05:17:33 ERROR:Table `creature` have creature (GUID: 57942 Entry: 20513) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (6600), `creature_template`.`MinLevelHealth`=6665.
-2017-03-24 05:17:33 ERROR:Table `creature` have creature (GUID: 190202 Entry: 15102) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (573), `creature_template`.`MinLevelHealth`=7200.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 86034 Entry: 18729) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (4050), `creature_template`.`MinLevelHealth`=9250.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 96594 Entry: 25885) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (5744), `creature_template`.`MinLevelHealth`=8900.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150616 Entry: 21723) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=9082.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150615 Entry: 21723) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=9082.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150614 Entry: 21723) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=9082.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150613 Entry: 21723) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=9082.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150612 Entry: 21723) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=9082.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150611 Entry: 21723) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=9082.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150610 Entry: 23219) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=6761.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150609 Entry: 23219) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=6761.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150608 Entry: 23219) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=6761.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150607 Entry: 23219) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=6761.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150606 Entry: 23219) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=6761.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150605 Entry: 23219) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=6761.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150604 Entry: 23219) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=6761.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150603 Entry: 23219) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=6761.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150602 Entry: 23219) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=6761.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150601 Entry: 23219) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=6761.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150600 Entry: 23219) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=6761.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150599 Entry: 23219) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=6761.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150598 Entry: 23219) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=6761.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150597 Entry: 23219) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=6761.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150596 Entry: 23219) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=6761.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150595 Entry: 23219) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=6761.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150594 Entry: 23219) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=6761.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150593 Entry: 23219) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=6761.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150592 Entry: 23219) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=6761.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150591 Entry: 23219) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=6761.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150590 Entry: 23219) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=6761.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150589 Entry: 23219) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=6761.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150588 Entry: 23219) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=6761.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150587 Entry: 23219) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=6761.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150586 Entry: 23219) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=6761.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150585 Entry: 23219) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=6761.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150584 Entry: 23219) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=6761.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150583 Entry: 23219) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=6761.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150580 Entry: 23029) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=28564.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150579 Entry: 23029) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=28564.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150578 Entry: 23029) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=28564.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150577 Entry: 23029) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=28564.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150576 Entry: 21728) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=5589.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150576 Entry: 21728) with low current mana (0), `creature_template`.`MinLevelMana`=3155.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150575 Entry: 21728) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=5589.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150575 Entry: 21728) with low current mana (0), `creature_template`.`MinLevelMana`=3155.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150574 Entry: 21728) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=5589.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150574 Entry: 21728) with low current mana (0), `creature_template`.`MinLevelMana`=3155.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150528 Entry: 21730) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=29515.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150528 Entry: 21730) with low current mana (0), `creature_template`.`MinLevelMana`=6618.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150527 Entry: 21730) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=29515.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150527 Entry: 21730) with low current mana (0), `creature_template`.`MinLevelMana`=6618.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150526 Entry: 21730) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=29515.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150526 Entry: 21730) with low current mana (0), `creature_template`.`MinLevelMana`=6618.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150524 Entry: 21644) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=6896.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150523 Entry: 21644) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=6896.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150522 Entry: 21644) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=6896.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150521 Entry: 21644) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=6896.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150520 Entry: 21644) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=6896.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150519 Entry: 21644) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=6896.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150518 Entry: 21644) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=6896.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150517 Entry: 21644) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=6896.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150516 Entry: 21644) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=6896.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150515 Entry: 21644) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=6896.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150514 Entry: 21644) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=6896.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150513 Entry: 21644) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=6896.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150648 Entry: 23051) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=6986.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150647 Entry: 23051) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=6986.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150646 Entry: 23051) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=6986.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150645 Entry: 23051) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=6986.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150644 Entry: 23051) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=6986.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150630 Entry: 21723) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=9082.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150629 Entry: 21723) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=9082.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150628 Entry: 21723) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=9082.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150627 Entry: 21723) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=9082.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150626 Entry: 21723) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=9082.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150625 Entry: 21723) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=9082.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150624 Entry: 21723) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=9082.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150623 Entry: 21723) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=9082.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150622 Entry: 21723) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=9082.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150573 Entry: 21728) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=5589.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150573 Entry: 21728) with low current mana (0), `creature_template`.`MinLevelMana`=3155.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150572 Entry: 21728) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=5589.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150572 Entry: 21728) with low current mana (0), `creature_template`.`MinLevelMana`=3155.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150571 Entry: 21728) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=5589.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150571 Entry: 21728) with low current mana (0), `creature_template`.`MinLevelMana`=3155.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150570 Entry: 21728) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=5589.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150570 Entry: 21728) with low current mana (0), `creature_template`.`MinLevelMana`=3155.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150569 Entry: 21728) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=5589.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150569 Entry: 21728) with low current mana (0), `creature_template`.`MinLevelMana`=3155.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150568 Entry: 21728) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=5589.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150568 Entry: 21728) with low current mana (0), `creature_template`.`MinLevelMana`=3155.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150567 Entry: 21728) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=5589.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150567 Entry: 21728) with low current mana (0), `creature_template`.`MinLevelMana`=3155.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150566 Entry: 21728) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=5589.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150566 Entry: 21728) with low current mana (0), `creature_template`.`MinLevelMana`=3155.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150565 Entry: 21728) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=5589.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150565 Entry: 21728) with low current mana (0), `creature_template`.`MinLevelMana`=3155.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150564 Entry: 21728) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=5589.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150564 Entry: 21728) with low current mana (0), `creature_template`.`MinLevelMana`=3155.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150563 Entry: 21728) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=5589.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150563 Entry: 21728) with low current mana (0), `creature_template`.`MinLevelMana`=3155.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150562 Entry: 21728) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=5589.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150562 Entry: 21728) with low current mana (0), `creature_template`.`MinLevelMana`=3155.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150561 Entry: 21728) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=5589.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150561 Entry: 21728) with low current mana (0), `creature_template`.`MinLevelMana`=3155.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150560 Entry: 21728) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=5589.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150560 Entry: 21728) with low current mana (0), `creature_template`.`MinLevelMana`=3155.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150559 Entry: 21728) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=5589.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150559 Entry: 21728) with low current mana (0), `creature_template`.`MinLevelMana`=3155.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150558 Entry: 21728) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=5589.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150558 Entry: 21728) with low current mana (0), `creature_template`.`MinLevelMana`=3155.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150557 Entry: 21728) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=5589.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150557 Entry: 21728) with low current mana (0), `creature_template`.`MinLevelMana`=3155.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150556 Entry: 21728) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=5589.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150556 Entry: 21728) with low current mana (0), `creature_template`.`MinLevelMana`=3155.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150555 Entry: 21728) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=5589.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150555 Entry: 21728) with low current mana (0), `creature_template`.`MinLevelMana`=3155.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150554 Entry: 21728) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=5589.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150554 Entry: 21728) with low current mana (0), `creature_template`.`MinLevelMana`=3155.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150553 Entry: 21728) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=5589.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150553 Entry: 21728) with low current mana (0), `creature_template`.`MinLevelMana`=3155.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150552 Entry: 21728) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=5589.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150552 Entry: 21728) with low current mana (0), `creature_template`.`MinLevelMana`=3155.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150551 Entry: 21728) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=5589.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150551 Entry: 21728) with low current mana (0), `creature_template`.`MinLevelMana`=3155.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150550 Entry: 21728) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=5589.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150550 Entry: 21728) with low current mana (0), `creature_template`.`MinLevelMana`=3155.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150549 Entry: 21728) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=5589.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150549 Entry: 21728) with low current mana (0), `creature_template`.`MinLevelMana`=3155.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150548 Entry: 21728) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=5589.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150548 Entry: 21728) with low current mana (0), `creature_template`.`MinLevelMana`=3155.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150547 Entry: 21728) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=5589.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150547 Entry: 21728) with low current mana (0), `creature_template`.`MinLevelMana`=3155.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150546 Entry: 21728) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=5589.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150546 Entry: 21728) with low current mana (0), `creature_template`.`MinLevelMana`=3155.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150545 Entry: 21728) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=5589.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150545 Entry: 21728) with low current mana (0), `creature_template`.`MinLevelMana`=3155.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150544 Entry: 21728) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=5589.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150544 Entry: 21728) with low current mana (0), `creature_template`.`MinLevelMana`=3155.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150543 Entry: 21728) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=5589.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150543 Entry: 21728) with low current mana (0), `creature_template`.`MinLevelMana`=3155.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150542 Entry: 21728) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=5589.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150542 Entry: 21728) with low current mana (0), `creature_template`.`MinLevelMana`=3155.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150541 Entry: 21728) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=5589.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150541 Entry: 21728) with low current mana (0), `creature_template`.`MinLevelMana`=3155.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150540 Entry: 21728) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=5589.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150540 Entry: 21728) with low current mana (0), `creature_template`.`MinLevelMana`=3155.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150539 Entry: 21728) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=5589.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150539 Entry: 21728) with low current mana (0), `creature_template`.`MinLevelMana`=3155.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150538 Entry: 21728) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=5589.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150538 Entry: 21728) with low current mana (0), `creature_template`.`MinLevelMana`=3155.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150537 Entry: 21728) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=5589.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150537 Entry: 21728) with low current mana (0), `creature_template`.`MinLevelMana`=3155.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150536 Entry: 21728) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=5589.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150536 Entry: 21728) with low current mana (0), `creature_template`.`MinLevelMana`=3155.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150535 Entry: 21728) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=5589.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150535 Entry: 21728) with low current mana (0), `creature_template`.`MinLevelMana`=3155.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150534 Entry: 21728) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=5589.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150534 Entry: 21728) with low current mana (0), `creature_template`.`MinLevelMana`=3155.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150533 Entry: 21728) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=5589.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150533 Entry: 21728) with low current mana (0), `creature_template`.`MinLevelMana`=3155.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150532 Entry: 21728) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=5589.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150532 Entry: 21728) with low current mana (0), `creature_template`.`MinLevelMana`=3155.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150531 Entry: 21728) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=5589.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150531 Entry: 21728) with low current mana (0), `creature_template`.`MinLevelMana`=3155.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150530 Entry: 21728) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=5589.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150530 Entry: 21728) with low current mana (0), `creature_template`.`MinLevelMana`=3155.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150529 Entry: 21728) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=5589.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150529 Entry: 21728) with low current mana (0), `creature_template`.`MinLevelMana`=3155.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150678 Entry: 21804) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=3144.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150677 Entry: 21804) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=3144.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150676 Entry: 21804) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=3144.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150675 Entry: 21804) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=3144.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150674 Entry: 21804) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=3144.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150673 Entry: 21804) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=3144.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150672 Entry: 21804) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=3144.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150671 Entry: 21804) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=3144.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150670 Entry: 21804) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=3144.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150669 Entry: 21804) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=3144.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150668 Entry: 21804) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=3144.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150667 Entry: 21804) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=3144.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150666 Entry: 21804) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=3144.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150665 Entry: 21804) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=3144.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150664 Entry: 21804) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=3144.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150663 Entry: 21804) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=3144.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150662 Entry: 21804) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=3144.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150661 Entry: 21804) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=3144.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150660 Entry: 21804) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=3144.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150659 Entry: 21804) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=3144.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150658 Entry: 21804) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=3144.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150657 Entry: 21804) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=3144.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150656 Entry: 21804) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=3144.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150655 Entry: 21804) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=3144.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150654 Entry: 21804) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=3144.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150653 Entry: 21804) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=3144.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150652 Entry: 21804) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=3144.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150651 Entry: 21804) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=3144.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150650 Entry: 21804) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=3144.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150649 Entry: 21804) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=3144.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150643 Entry: 23051) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=6986.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150642 Entry: 23051) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=6986.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150582 Entry: 23219) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=6761.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150581 Entry: 23219) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=6761.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150641 Entry: 23051) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=6986.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150640 Entry: 23051) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=6986.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190098 Entry: 15105) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (852), `creature_template`.`MinLevelHealth`=1605.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150525 Entry: 21730) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=29515.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150525 Entry: 21730) with low current mana (0), `creature_template`.`MinLevelMana`=6618.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 86032 Entry: 18729) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (4050), `creature_template`.`MinLevelHealth`=9250.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 86033 Entry: 18729) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (4050), `creature_template`.`MinLevelHealth`=9250.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 86035 Entry: 18729) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (4050), `creature_template`.`MinLevelHealth`=9250.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 86026 Entry: 18729) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (4050), `creature_template`.`MinLevelHealth`=9250.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 86029 Entry: 18729) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (4050), `creature_template`.`MinLevelHealth`=9250.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 86030 Entry: 18729) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (4050), `creature_template`.`MinLevelHealth`=9250.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 86027 Entry: 18729) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (4050), `creature_template`.`MinLevelHealth`=9250.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 86036 Entry: 18729) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (4050), `creature_template`.`MinLevelHealth`=9250.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190325 Entry: 14991) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1554), `creature_template`.`MinLevelHealth`=2471.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190324 Entry: 14991) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1554), `creature_template`.`MinLevelHealth`=2471.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190323 Entry: 15102) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (573), `creature_template`.`MinLevelHealth`=7200.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190197 Entry: 14991) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1554), `creature_template`.`MinLevelHealth`=2471.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190196 Entry: 14991) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1554), `creature_template`.`MinLevelHealth`=2471.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 137681 Entry: 11473) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (6891), `creature_template`.`MinLevelHealth`=6991.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 137680 Entry: 11473) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (6891), `creature_template`.`MinLevelHealth`=6991.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 137679 Entry: 11473) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (6891), `creature_template`.`MinLevelHealth`=6991.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 137678 Entry: 721) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=8.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 137677 Entry: 721) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=8.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 137676 Entry: 11473) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (6891), `creature_template`.`MinLevelHealth`=6991.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 137675 Entry: 11473) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (6891), `creature_template`.`MinLevelHealth`=6991.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 137674 Entry: 721) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=8.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 137673 Entry: 11473) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (6891), `creature_template`.`MinLevelHealth`=6991.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 137672 Entry: 721) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=8.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 137671 Entry: 11473) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (6891), `creature_template`.`MinLevelHealth`=6991.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 137670 Entry: 721) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=8.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 137669 Entry: 11473) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (6891), `creature_template`.`MinLevelHealth`=6991.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 137668 Entry: 721) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=8.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 137667 Entry: 721) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=8.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 137666 Entry: 721) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=8.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 136167 Entry: 11466) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (523), `creature_template`.`MinLevelHealth`=14000.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 136166 Entry: 11466) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (523), `creature_template`.`MinLevelHealth`=14000.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 136165 Entry: 11466) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (523), `creature_template`.`MinLevelHealth`=14000.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 136164 Entry: 11466) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (523), `creature_template`.`MinLevelHealth`=14000.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 136163 Entry: 11466) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (523), `creature_template`.`MinLevelHealth`=14000.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 136162 Entry: 11466) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (523), `creature_template`.`MinLevelHealth`=14000.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 136161 Entry: 11466) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (523), `creature_template`.`MinLevelHealth`=14000.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 136160 Entry: 11466) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (523), `creature_template`.`MinLevelHealth`=14000.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 136159 Entry: 11466) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (523), `creature_template`.`MinLevelHealth`=14000.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 136158 Entry: 11466) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (523), `creature_template`.`MinLevelHealth`=14000.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 136157 Entry: 11466) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (523), `creature_template`.`MinLevelHealth`=14000.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 136156 Entry: 11466) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (523), `creature_template`.`MinLevelHealth`=14000.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 136155 Entry: 11466) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (523), `creature_template`.`MinLevelHealth`=14000.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 136154 Entry: 11466) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (523), `creature_template`.`MinLevelHealth`=14000.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 136153 Entry: 11466) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (523), `creature_template`.`MinLevelHealth`=14000.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 136152 Entry: 11466) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (523), `creature_template`.`MinLevelHealth`=14000.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 136151 Entry: 11466) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (523), `creature_template`.`MinLevelHealth`=14000.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 136150 Entry: 11466) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (523), `creature_template`.`MinLevelHealth`=14000.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 134913 Entry: 14386) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (305), `creature_template`.`MinLevelHealth`=2800.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 134912 Entry: 14386) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (305), `creature_template`.`MinLevelHealth`=2800.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190131 Entry: 15102) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (573), `creature_template`.`MinLevelHealth`=7200.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190130 Entry: 15102) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (573), `creature_template`.`MinLevelHealth`=7200.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 140487 Entry: 18948) with low current mana (0), `creature_template`.`MinLevelMana`=100.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 140486 Entry: 18948) with low current mana (0), `creature_template`.`MinLevelMana`=100.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 61297 Entry: 4588) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1342), `creature_template`.`MinLevelHealth`=2100.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150639 Entry: 23051) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=6986.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150638 Entry: 23051) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=6986.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150637 Entry: 23051) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=6986.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150636 Entry: 23051) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=6986.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150635 Entry: 23051) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=6986.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150634 Entry: 23051) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=6986.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150633 Entry: 23051) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=6986.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150632 Entry: 23051) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=6986.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150631 Entry: 23051) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=6986.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 86028 Entry: 18729) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (4050), `creature_template`.`MinLevelHealth`=9250.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150621 Entry: 21723) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=9082.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190117 Entry: 14991) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1554), `creature_template`.`MinLevelHealth`=2471.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190116 Entry: 14991) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1554), `creature_template`.`MinLevelHealth`=2471.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190115 Entry: 15102) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (573), `creature_template`.`MinLevelHealth`=7200.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190114 Entry: 15102) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (573), `creature_template`.`MinLevelHealth`=7200.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190107 Entry: 15105) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (852), `creature_template`.`MinLevelHealth`=1605.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190106 Entry: 15105) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (852), `creature_template`.`MinLevelHealth`=1605.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190099 Entry: 15105) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (852), `creature_template`.`MinLevelHealth`=1605.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190195 Entry: 15102) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (573), `creature_template`.`MinLevelHealth`=7200.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190194 Entry: 15102) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (573), `creature_template`.`MinLevelHealth`=7200.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190189 Entry: 14991) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1554), `creature_template`.`MinLevelHealth`=2471.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190188 Entry: 14991) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1554), `creature_template`.`MinLevelHealth`=2471.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190187 Entry: 15102) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (573), `creature_template`.`MinLevelHealth`=7200.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190186 Entry: 15102) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (573), `creature_template`.`MinLevelHealth`=7200.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190181 Entry: 14991) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1554), `creature_template`.`MinLevelHealth`=2471.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190180 Entry: 14991) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1554), `creature_template`.`MinLevelHealth`=2471.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190179 Entry: 15102) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (573), `creature_template`.`MinLevelHealth`=7200.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190178 Entry: 15102) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (573), `creature_template`.`MinLevelHealth`=7200.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190173 Entry: 14991) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1554), `creature_template`.`MinLevelHealth`=2471.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190172 Entry: 14991) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1554), `creature_template`.`MinLevelHealth`=2471.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190171 Entry: 15102) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (573), `creature_template`.`MinLevelHealth`=7200.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190170 Entry: 15102) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (573), `creature_template`.`MinLevelHealth`=7200.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190165 Entry: 14991) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1554), `creature_template`.`MinLevelHealth`=2471.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190164 Entry: 14991) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1554), `creature_template`.`MinLevelHealth`=2471.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190163 Entry: 15102) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (573), `creature_template`.`MinLevelHealth`=7200.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190162 Entry: 15102) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (573), `creature_template`.`MinLevelHealth`=7200.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190157 Entry: 14991) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1554), `creature_template`.`MinLevelHealth`=2471.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190156 Entry: 14991) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1554), `creature_template`.`MinLevelHealth`=2471.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190155 Entry: 15102) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (573), `creature_template`.`MinLevelHealth`=7200.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190154 Entry: 15102) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (573), `creature_template`.`MinLevelHealth`=7200.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190149 Entry: 14991) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1554), `creature_template`.`MinLevelHealth`=2471.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190148 Entry: 14991) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1554), `creature_template`.`MinLevelHealth`=2471.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190147 Entry: 15102) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (573), `creature_template`.`MinLevelHealth`=7200.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190146 Entry: 15102) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (573), `creature_template`.`MinLevelHealth`=7200.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190125 Entry: 14991) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1554), `creature_template`.`MinLevelHealth`=2471.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190124 Entry: 14991) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1554), `creature_template`.`MinLevelHealth`=2471.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190123 Entry: 15102) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (573), `creature_template`.`MinLevelHealth`=7200.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190122 Entry: 15102) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (573), `creature_template`.`MinLevelHealth`=7200.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190269 Entry: 14991) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1554), `creature_template`.`MinLevelHealth`=2471.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190268 Entry: 14991) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1554), `creature_template`.`MinLevelHealth`=2471.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190267 Entry: 15102) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (573), `creature_template`.`MinLevelHealth`=7200.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190266 Entry: 15102) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (573), `creature_template`.`MinLevelHealth`=7200.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190261 Entry: 14991) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1554), `creature_template`.`MinLevelHealth`=2471.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190260 Entry: 14991) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1554), `creature_template`.`MinLevelHealth`=2471.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190259 Entry: 15102) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (573), `creature_template`.`MinLevelHealth`=7200.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190258 Entry: 15102) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (573), `creature_template`.`MinLevelHealth`=7200.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190253 Entry: 14991) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1554), `creature_template`.`MinLevelHealth`=2471.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190252 Entry: 14991) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1554), `creature_template`.`MinLevelHealth`=2471.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190251 Entry: 15102) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (573), `creature_template`.`MinLevelHealth`=7200.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190250 Entry: 15102) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (573), `creature_template`.`MinLevelHealth`=7200.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190245 Entry: 14991) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1554), `creature_template`.`MinLevelHealth`=2471.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190244 Entry: 14991) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1554), `creature_template`.`MinLevelHealth`=2471.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190243 Entry: 15102) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (573), `creature_template`.`MinLevelHealth`=7200.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190242 Entry: 15102) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (573), `creature_template`.`MinLevelHealth`=7200.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190237 Entry: 14991) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1554), `creature_template`.`MinLevelHealth`=2471.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190236 Entry: 14991) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1554), `creature_template`.`MinLevelHealth`=2471.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190235 Entry: 15102) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (573), `creature_template`.`MinLevelHealth`=7200.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190234 Entry: 15102) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (573), `creature_template`.`MinLevelHealth`=7200.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190229 Entry: 14991) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1554), `creature_template`.`MinLevelHealth`=2471.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190228 Entry: 14991) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1554), `creature_template`.`MinLevelHealth`=2471.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190227 Entry: 15102) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (573), `creature_template`.`MinLevelHealth`=7200.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190226 Entry: 15102) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (573), `creature_template`.`MinLevelHealth`=7200.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190221 Entry: 14991) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1554), `creature_template`.`MinLevelHealth`=2471.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190220 Entry: 14991) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1554), `creature_template`.`MinLevelHealth`=2471.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190219 Entry: 15102) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (573), `creature_template`.`MinLevelHealth`=7200.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190218 Entry: 15102) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (573), `creature_template`.`MinLevelHealth`=7200.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190213 Entry: 14991) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1554), `creature_template`.`MinLevelHealth`=2471.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190212 Entry: 14991) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1554), `creature_template`.`MinLevelHealth`=2471.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190211 Entry: 15102) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (573), `creature_template`.`MinLevelHealth`=7200.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190210 Entry: 15102) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (573), `creature_template`.`MinLevelHealth`=7200.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190322 Entry: 15102) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (573), `creature_template`.`MinLevelHealth`=7200.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190316 Entry: 14991) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1554), `creature_template`.`MinLevelHealth`=2471.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190315 Entry: 15105) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (852), `creature_template`.`MinLevelHealth`=1605.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190314 Entry: 15102) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (573), `creature_template`.`MinLevelHealth`=7200.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190299 Entry: 15105) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (852), `creature_template`.`MinLevelHealth`=1605.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190298 Entry: 15105) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (852), `creature_template`.`MinLevelHealth`=1605.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190291 Entry: 15105) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (852), `creature_template`.`MinLevelHealth`=1605.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190290 Entry: 15105) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (852), `creature_template`.`MinLevelHealth`=1605.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190285 Entry: 14991) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1554), `creature_template`.`MinLevelHealth`=2471.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190284 Entry: 14991) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1554), `creature_template`.`MinLevelHealth`=2471.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190283 Entry: 15102) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (573), `creature_template`.`MinLevelHealth`=7200.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190282 Entry: 15102) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (573), `creature_template`.`MinLevelHealth`=7200.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190277 Entry: 14991) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1554), `creature_template`.`MinLevelHealth`=2471.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190276 Entry: 14991) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1554), `creature_template`.`MinLevelHealth`=2471.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190275 Entry: 15102) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (573), `creature_template`.`MinLevelHealth`=7200.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190274 Entry: 15102) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (573), `creature_template`.`MinLevelHealth`=7200.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190050 Entry: 15105) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (852), `creature_template`.`MinLevelHealth`=1605.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190045 Entry: 14991) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1554), `creature_template`.`MinLevelHealth`=2471.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190044 Entry: 14991) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1554), `creature_template`.`MinLevelHealth`=2471.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190043 Entry: 15102) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (573), `creature_template`.`MinLevelHealth`=7200.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190042 Entry: 15102) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (573), `creature_template`.`MinLevelHealth`=7200.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190037 Entry: 14991) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1554), `creature_template`.`MinLevelHealth`=2471.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190036 Entry: 14991) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1554), `creature_template`.`MinLevelHealth`=2471.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190035 Entry: 15102) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (573), `creature_template`.`MinLevelHealth`=7200.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190034 Entry: 15102) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (573), `creature_template`.`MinLevelHealth`=7200.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190029 Entry: 14991) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1554), `creature_template`.`MinLevelHealth`=2471.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190028 Entry: 14991) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1554), `creature_template`.`MinLevelHealth`=2471.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190027 Entry: 15102) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (573), `creature_template`.`MinLevelHealth`=7200.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190026 Entry: 15102) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (573), `creature_template`.`MinLevelHealth`=7200.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190021 Entry: 14991) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1554), `creature_template`.`MinLevelHealth`=2471.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190020 Entry: 14991) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1554), `creature_template`.`MinLevelHealth`=2471.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190019 Entry: 15102) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (573), `creature_template`.`MinLevelHealth`=7200.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190018 Entry: 15102) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (573), `creature_template`.`MinLevelHealth`=7200.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190013 Entry: 14991) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1554), `creature_template`.`MinLevelHealth`=2471.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190012 Entry: 14991) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1554), `creature_template`.`MinLevelHealth`=2471.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190011 Entry: 15102) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (573), `creature_template`.`MinLevelHealth`=7200.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190010 Entry: 15102) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (573), `creature_template`.`MinLevelHealth`=7200.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190005 Entry: 14991) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1554), `creature_template`.`MinLevelHealth`=2471.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190004 Entry: 14991) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1554), `creature_template`.`MinLevelHealth`=2471.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190003 Entry: 15102) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (573), `creature_template`.`MinLevelHealth`=7200.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190002 Entry: 15102) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (573), `creature_template`.`MinLevelHealth`=7200.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190091 Entry: 15105) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (852), `creature_template`.`MinLevelHealth`=1605.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190090 Entry: 15105) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (852), `creature_template`.`MinLevelHealth`=1605.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190083 Entry: 15105) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (852), `creature_template`.`MinLevelHealth`=1605.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190082 Entry: 15105) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (852), `creature_template`.`MinLevelHealth`=1605.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190075 Entry: 15105) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (852), `creature_template`.`MinLevelHealth`=1605.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190074 Entry: 15105) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (852), `creature_template`.`MinLevelHealth`=1605.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190067 Entry: 15105) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (852), `creature_template`.`MinLevelHealth`=1605.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190066 Entry: 15105) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (852), `creature_template`.`MinLevelHealth`=1605.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190059 Entry: 15105) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (852), `creature_template`.`MinLevelHealth`=1605.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190058 Entry: 15105) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (852), `creature_template`.`MinLevelHealth`=1605.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190051 Entry: 15105) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (852), `creature_template`.`MinLevelHealth`=1605.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 119584 Entry: 21318) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (6986), `creature_template`.`MinLevelHealth`=11000.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 134785 Entry: 16032) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (710), `creature_template`.`MinLevelHealth`=3200.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 122716 Entry: 14338) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (3517), `creature_template`.`MinLevelHealth`=5400.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 40515 Entry: 10083) with low current mana (0), `creature_template`.`MinLevelMana`=2289.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 52285 Entry: 21310) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (4050), `creature_template`.`MinLevelHealth`=9250.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 52286 Entry: 21310) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (4050), `creature_template`.`MinLevelHealth`=9250.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 52288 Entry: 21310) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (4050), `creature_template`.`MinLevelHealth`=9250.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 75023 Entry: 21908) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (5233), `creature_template`.`MinLevelHealth`=5300.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 75024 Entry: 21908) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (5060), `creature_template`.`MinLevelHealth`=5300.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 75025 Entry: 21908) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (5060), `creature_template`.`MinLevelHealth`=5300.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 140008 Entry: 21933) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=8.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 140009 Entry: 19870) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=8.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 140010 Entry: 19870) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=8.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 140011 Entry: 19870) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=8.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 140012 Entry: 19870) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=8.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 140013 Entry: 17474) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=8.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 140014 Entry: 17474) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=8.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 140015 Entry: 17474) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=8.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 140016 Entry: 17474) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=8.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 140017 Entry: 17474) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=8.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 140018 Entry: 17474) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=8.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 140019 Entry: 17474) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=8.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 301673 Entry: 18688) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=5700.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 301674 Entry: 18688) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=5700.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 301675 Entry: 18688) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=5700.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 301676 Entry: 18688) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=5700.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 301677 Entry: 18688) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=5700.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 301678 Entry: 18688) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=5700.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 301679 Entry: 18688) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=5700.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 301680 Entry: 18688) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=5700.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 301681 Entry: 18688) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=5700.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 140772 Entry: 23383) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (6986), `creature_template`.`MinLevelHealth`=9250.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 140773 Entry: 23383) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (6986), `creature_template`.`MinLevelHealth`=9250.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 140774 Entry: 23383) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (6986), `creature_template`.`MinLevelHealth`=9250.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 154595 Entry: 11491) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (3589), `creature_template`.`MinLevelHealth`=6000.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 160107 Entry: 10799) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (3857), `creature_template`.`MinLevelHealth`=9000.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 160171 Entry: 9818) with low current mana (0), `creature_template`.`MinLevelMana`=2369.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 160257 Entry: 10509) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (8883), `creature_template`.`MinLevelHealth`=9400.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 43482 Entry: 9258) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (7599), `creature_template`.`MinLevelHealth`=7842.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 660075 Entry: 9200) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (12665), `creature_template`.`MinLevelHealth`=13070.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 660079 Entry: 9200) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (12665), `creature_template`.`MinLevelHealth`=13070.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 151019 Entry: 16481) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (51660), `creature_template`.`MinLevelHealth`=73800.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 151020 Entry: 16482) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (41321), `creature_template`.`MinLevelHealth`=57810.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 151021 Entry: 16482) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (41321), `creature_template`.`MinLevelHealth`=57810.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 151022 Entry: 16482) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (41321), `creature_template`.`MinLevelHealth`=57810.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 151023 Entry: 16482) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (41321), `creature_template`.`MinLevelHealth`=57810.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 151024 Entry: 16482) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (41321), `creature_template`.`MinLevelHealth`=57810.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 151025 Entry: 16482) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (41321), `creature_template`.`MinLevelHealth`=57810.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 151026 Entry: 16482) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (41321), `creature_template`.`MinLevelHealth`=57810.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 151027 Entry: 16482) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (41321), `creature_template`.`MinLevelHealth`=57810.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 151028 Entry: 16482) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (41321), `creature_template`.`MinLevelHealth`=57810.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 151029 Entry: 16482) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (41321), `creature_template`.`MinLevelHealth`=57810.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190330 Entry: 15102) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (573), `creature_template`.`MinLevelHealth`=7200.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190331 Entry: 15102) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (573), `creature_template`.`MinLevelHealth`=7200.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190332 Entry: 14991) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1554), `creature_template`.`MinLevelHealth`=2471.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190333 Entry: 14991) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1554), `creature_template`.`MinLevelHealth`=2471.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190338 Entry: 15105) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (852), `creature_template`.`MinLevelHealth`=1605.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190339 Entry: 15105) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (852), `creature_template`.`MinLevelHealth`=1605.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190346 Entry: 15105) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (852), `creature_template`.`MinLevelHealth`=1605.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190347 Entry: 15105) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (852), `creature_template`.`MinLevelHealth`=1605.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190354 Entry: 15105) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (852), `creature_template`.`MinLevelHealth`=1605.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190355 Entry: 15105) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (852), `creature_template`.`MinLevelHealth`=1605.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190362 Entry: 15105) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (852), `creature_template`.`MinLevelHealth`=1605.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190363 Entry: 15105) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (852), `creature_template`.`MinLevelHealth`=1605.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190370 Entry: 15105) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (852), `creature_template`.`MinLevelHealth`=1605.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190371 Entry: 15105) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (852), `creature_template`.`MinLevelHealth`=1605.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190378 Entry: 15102) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (573), `creature_template`.`MinLevelHealth`=7200.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190379 Entry: 15102) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (573), `creature_template`.`MinLevelHealth`=7200.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190380 Entry: 14991) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1554), `creature_template`.`MinLevelHealth`=2471.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190381 Entry: 14991) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1554), `creature_template`.`MinLevelHealth`=2471.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190386 Entry: 15102) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (573), `creature_template`.`MinLevelHealth`=7200.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190387 Entry: 15102) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (573), `creature_template`.`MinLevelHealth`=7200.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190388 Entry: 14991) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1554), `creature_template`.`MinLevelHealth`=2471.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190389 Entry: 14991) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1554), `creature_template`.`MinLevelHealth`=2471.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190394 Entry: 15105) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (852), `creature_template`.`MinLevelHealth`=1605.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190395 Entry: 15105) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (852), `creature_template`.`MinLevelHealth`=1605.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190402 Entry: 15105) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (852), `creature_template`.`MinLevelHealth`=1605.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190403 Entry: 15105) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (852), `creature_template`.`MinLevelHealth`=1605.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190410 Entry: 15105) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (852), `creature_template`.`MinLevelHealth`=1605.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190411 Entry: 15105) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (852), `creature_template`.`MinLevelHealth`=1605.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190418 Entry: 15105) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (852), `creature_template`.`MinLevelHealth`=1605.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190419 Entry: 15105) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (852), `creature_template`.`MinLevelHealth`=1605.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190426 Entry: 15105) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (852), `creature_template`.`MinLevelHealth`=1605.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190427 Entry: 15105) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (852), `creature_template`.`MinLevelHealth`=1605.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190434 Entry: 15105) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (852), `creature_template`.`MinLevelHealth`=1605.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190435 Entry: 15105) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (852), `creature_template`.`MinLevelHealth`=1605.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190442 Entry: 15105) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (852), `creature_template`.`MinLevelHealth`=1605.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190443 Entry: 15105) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (852), `creature_template`.`MinLevelHealth`=1605.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190450 Entry: 15105) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (852), `creature_template`.`MinLevelHealth`=1605.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190451 Entry: 15105) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (852), `creature_template`.`MinLevelHealth`=1605.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190458 Entry: 15105) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (852), `creature_template`.`MinLevelHealth`=1605.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190459 Entry: 15105) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (852), `creature_template`.`MinLevelHealth`=1605.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190466 Entry: 15105) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (852), `creature_template`.`MinLevelHealth`=1605.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190467 Entry: 15105) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (852), `creature_template`.`MinLevelHealth`=1605.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190474 Entry: 15105) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (852), `creature_template`.`MinLevelHealth`=1605.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190475 Entry: 15105) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (852), `creature_template`.`MinLevelHealth`=1605.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190482 Entry: 15105) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (852), `creature_template`.`MinLevelHealth`=1605.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190483 Entry: 15105) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (852), `creature_template`.`MinLevelHealth`=1605.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190490 Entry: 15105) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (852), `creature_template`.`MinLevelHealth`=1605.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190491 Entry: 15105) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (852), `creature_template`.`MinLevelHealth`=1605.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190498 Entry: 15102) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (573), `creature_template`.`MinLevelHealth`=7200.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190499 Entry: 15102) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (573), `creature_template`.`MinLevelHealth`=7200.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190500 Entry: 14991) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1554), `creature_template`.`MinLevelHealth`=2471.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190501 Entry: 14991) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1554), `creature_template`.`MinLevelHealth`=2471.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190506 Entry: 15102) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (573), `creature_template`.`MinLevelHealth`=7200.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190507 Entry: 15102) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (573), `creature_template`.`MinLevelHealth`=7200.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190508 Entry: 14991) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1554), `creature_template`.`MinLevelHealth`=2471.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190509 Entry: 14991) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1554), `creature_template`.`MinLevelHealth`=2471.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190514 Entry: 15102) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (573), `creature_template`.`MinLevelHealth`=7200.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190515 Entry: 15102) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (573), `creature_template`.`MinLevelHealth`=7200.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190516 Entry: 14991) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1554), `creature_template`.`MinLevelHealth`=2471.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190517 Entry: 14991) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1554), `creature_template`.`MinLevelHealth`=2471.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190522 Entry: 15102) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (573), `creature_template`.`MinLevelHealth`=7200.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190523 Entry: 15102) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (573), `creature_template`.`MinLevelHealth`=7200.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190524 Entry: 14991) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1554), `creature_template`.`MinLevelHealth`=2471.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190525 Entry: 14991) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1554), `creature_template`.`MinLevelHealth`=2471.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190530 Entry: 15105) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (852), `creature_template`.`MinLevelHealth`=1605.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190531 Entry: 15105) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (852), `creature_template`.`MinLevelHealth`=1605.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190538 Entry: 15105) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (852), `creature_template`.`MinLevelHealth`=1605.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190539 Entry: 15105) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (852), `creature_template`.`MinLevelHealth`=1605.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190546 Entry: 15105) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (852), `creature_template`.`MinLevelHealth`=1605.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190547 Entry: 15105) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (852), `creature_template`.`MinLevelHealth`=1605.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190554 Entry: 15105) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (852), `creature_template`.`MinLevelHealth`=1605.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190555 Entry: 15105) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (852), `creature_template`.`MinLevelHealth`=1605.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190562 Entry: 15102) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (573), `creature_template`.`MinLevelHealth`=7200.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190563 Entry: 15102) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (573), `creature_template`.`MinLevelHealth`=7200.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190564 Entry: 14991) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1554), `creature_template`.`MinLevelHealth`=2471.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190565 Entry: 14991) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1554), `creature_template`.`MinLevelHealth`=2471.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190570 Entry: 15105) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (852), `creature_template`.`MinLevelHealth`=1605.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190571 Entry: 15105) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (852), `creature_template`.`MinLevelHealth`=1605.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190578 Entry: 15105) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (852), `creature_template`.`MinLevelHealth`=1605.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 190579 Entry: 15105) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (852), `creature_template`.`MinLevelHealth`=1605.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150617 Entry: 21723) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=9082.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150618 Entry: 21723) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=9082.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150619 Entry: 21723) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=9082.
-2017-03-24 05:17:34 ERROR:Table `creature` have creature (GUID: 150620 Entry: 21723) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1), `creature_template`.`MinLevelHealth`=9082.
-2017-03-24 05:17:34 >> Loaded 102201 creatures
-2017-03-24 05:17:34 
-2017-03-24 05:17:34 Loading Creature Addon Data...
-2017-03-24 05:17:34 >> Loaded 10325 creature template addons
-2017-03-24 05:17:34 >> Loaded 9884 creature addons
-2017-03-24 05:17:34 ERROR:Creature (GUID: 75829) does not exist but has a record in `creature_addon`
-2017-03-24 05:17:34 ERROR:Creature (GUID: 79020) does not exist but has a record in `creature_addon`
-2017-03-24 05:17:34 >>> Creature Addon Data loaded
-2017-03-24 05:17:34 
-2017-03-24 05:17:34 Loading Gameobject Data...
-2017-03-24 05:17:35 >> Loaded 82404 gameobjects
-2017-03-24 05:17:35 
-2017-03-24 05:17:35 Loading CreatureLinking Data...
-2017-03-24 05:17:35 > Loading table `creature_linking_template`
-2017-03-24 05:17:35 >> Loaded creature linking for 261 creature-entries
-2017-03-24 05:17:35 
-2017-03-24 05:17:35 > Loading table `creature_linking`
-2017-03-24 05:17:35 >> Loaded creature linking for 1824 creature-Guids
-2017-03-24 05:17:35 
-2017-03-24 05:17:35 Loading Objects Pooling Data...
-2017-03-24 05:17:35 
-2017-03-24 05:17:35 >> Loaded 7144 objects pools
-2017-03-24 05:17:35 
-2017-03-24 05:17:35 >> Loaded 1174 creatures in pools from `pool_creature`
-2017-03-24 05:17:35 
-2017-03-24 05:17:35 >> Loaded 1108 creatures in pools from `pool_creature_template`
-2017-03-24 05:17:36 
-2017-03-24 05:17:36 >> Loaded 40613 gameobject in pools from `pool_gameobject`
-2017-03-24 05:17:36 
-2017-03-24 05:17:36 >> Loaded 418 gameobject in pools from `pool_gameobject_template`
-2017-03-24 05:17:36 
-2017-03-24 05:17:36 >> Loaded 5990 pools in mother pools
-2017-03-24 05:17:36 
-2017-03-24 05:17:36 Loading Weather Data...
-2017-03-24 05:17:36 >> Loaded 35 weather definitions
-2017-03-24 05:17:36 
-2017-03-24 05:17:36 Loading Quests...
-2017-03-24 05:17:36 >> Loaded 6481 quests definitions
-2017-03-24 05:17:36 
-2017-03-24 05:17:36 Loading Quests Relations...
-2017-03-24 05:17:36 
-2017-03-24 05:17:36 >> Loaded 281 quest relations from gameobject_questrelation
-2017-03-24 05:17:36 
-2017-03-24 05:17:36 >> Loaded 223 quest relations from gameobject_involvedrelation
-2017-03-24 05:17:36 
-2017-03-24 05:17:36 >> Loaded 5452 quest relations from creature_questrelation
-2017-03-24 05:17:36 
-2017-03-24 05:17:36 >> Loaded 5679 quest relations from creature_involvedrelation
-2017-03-24 05:17:36 >>> Quests Relations loaded
-2017-03-24 05:17:36 
-2017-03-24 05:17:36 Loading Game Event Data...
-2017-03-24 05:17:36 
-2017-03-24 05:17:36 >> Loaded 57 game events
-2017-03-24 05:17:36 ERROR:`game_event_creature` game event id (35) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_creature` game event id (35) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_creature` game event id (24) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_creature` game event id (24) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_creature` game event id (24) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_creature` game event id (24) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_creature` game event id (66) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_creature` game event id (67) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_creature` game event id (68) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_creature` game event id (69) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_creature` game event id (70) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_creature` game event id (71) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_creature` game event id (73) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_creature` game event id (74) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_creature` game event id (75) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_creature` game event id (66) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_creature` game event id (67) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_creature` game event id (68) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_creature` game event id (69) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_creature` game event id (70) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_creature` game event id (71) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_creature` game event id (72) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_creature` game event id (73) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_creature` game event id (74) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_creature` game event id (75) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_creature` game event id (113) not exist in `game_event`
-2017-03-24 05:17:36 
-2017-03-24 05:17:36 >> Loaded 3132 creatures in game events
-2017-03-24 05:17:36 ERROR:`game_event_gameobject` game event id (112) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_gameobject` game event id (35) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_gameobject` game event id (35) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_gameobject` game event id (35) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_gameobject` game event id (35) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_gameobject` game event id (35) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_gameobject` game event id (35) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_gameobject` game event id (35) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_gameobject` game event id (35) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_gameobject` game event id (35) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_gameobject` game event id (35) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_gameobject` game event id (35) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_gameobject` game event id (35) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_gameobject` game event id (35) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_gameobject` game event id (35) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_gameobject` game event id (35) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_gameobject` game event id (35) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_gameobject` game event id (35) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_gameobject` game event id (35) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_gameobject` game event id (35) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_gameobject` game event id (35) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_gameobject` game event id (35) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_gameobject` game event id (35) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_gameobject` game event id (35) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_gameobject` game event id (35) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_gameobject` game event id (35) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_gameobject` game event id (35) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_gameobject` game event id (35) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_gameobject` game event id (35) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_gameobject` game event id (35) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_gameobject` game event id (35) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_gameobject` game event id (35) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_gameobject` game event id (35) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_gameobject` game event id (35) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_gameobject` game event id (35) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_gameobject` game event id (35) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_gameobject` game event id (35) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_gameobject` game event id (35) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_gameobject` game event id (35) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_gameobject` game event id (35) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_gameobject` game event id (35) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_gameobject` game event id (35) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_gameobject` game event id (35) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_gameobject` game event id (35) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_gameobject` game event id (35) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_gameobject` game event id (35) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_gameobject` game event id (35) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_gameobject` game event id (35) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_gameobject` game event id (35) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_gameobject` game event id (35) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_gameobject` game event id (35) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_gameobject` game event id (35) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_gameobject` game event id (35) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_gameobject` game event id (112) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_gameobject` game event id (112) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_gameobject` game event id (112) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_gameobject` game event id (112) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_gameobject` game event id (112) not exist in `game_event`
-2017-03-24 05:17:36 
-2017-03-24 05:17:36 >> Loaded 16186 gameobjects in game events
-2017-03-24 05:17:36 ERROR:`game_event_creature_data` game event id (23) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_creature_data` game event id (23) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_creature_data` game event id (23) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_creature_data` game event id (23) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_creature_data` game event id (23) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_creature_data` game event id (23) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_creature_data` game event id (23) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_creature_data` game event id (23) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_creature_data` game event id (23) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_creature_data` game event id (23) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_creature_data` game event id (23) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_creature_data` game event id (23) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_creature_data` game event id (23) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_creature_data` game event id (23) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_creature_data` game event id (23) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_creature_data` game event id (23) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_creature_data` game event id (23) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_creature_data` game event id (23) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_creature_data` game event id (23) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_creature_data` game event id (23) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_creature_data` game event id (23) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_creature_data` game event id (23) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_creature_data` game event id (23) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_creature_data` game event id (23) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_creature_data` game event id (23) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_creature_data` game event id (23) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_creature_data` game event id (23) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_creature_data` game event id (23) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_creature_data` game event id (23) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_creature_data` game event id (23) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_creature_data` game event id (23) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_creature_data` game event id (23) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_creature_data` game event id (23) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_creature_data` game event id (23) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_creature_data` game event id (23) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_creature_data` game event id (23) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_creature_data` game event id (23) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_creature_data` game event id (23) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_creature_data` game event id (23) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_creature_data` game event id (23) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_creature_data` game event id (23) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_creature_data` game event id (23) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_creature_data` game event id (23) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_creature_data` game event id (23) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_creature_data` game event id (23) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_creature_data` game event id (23) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_creature_data` game event id (23) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_creature_data` game event id (66) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_creature_data` game event id (67) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_creature_data` game event id (68) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_creature_data` game event id (69) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_creature_data` game event id (70) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_creature_data` game event id (71) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_creature_data` game event id (73) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_creature_data` game event id (74) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_creature_data` game event id (75) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_creature_data` game event id (66) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_creature_data` game event id (67) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_creature_data` game event id (68) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_creature_data` game event id (69) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_creature_data` game event id (70) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_creature_data` game event id (71) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_creature_data` game event id (72) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_creature_data` game event id (73) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_creature_data` game event id (74) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_creature_data` game event id (75) not exist in `game_event`
-2017-03-24 05:17:36 
-2017-03-24 05:17:36 >> Loaded 21 creature reactions at game events
-2017-03-24 05:17:36 
-2017-03-24 05:17:36 >> Loaded 11 quest additions in game events
-2017-03-24 05:17:36 ERROR:`game_event_mail` game event id (66) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_mail` game event id (67) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_mail` game event id (68) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_mail` game event id (69) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_mail` game event id (70) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_mail` game event id (71) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_mail` game event id (72) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_mail` game event id (73) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_mail` game event id (74) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_mail` game event id (75) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_mail` game event id (66) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_mail` game event id (67) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_mail` game event id (68) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_mail` game event id (69) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_mail` game event id (70) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_mail` game event id (71) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_mail` game event id (72) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_mail` game event id (73) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_mail` game event id (74) not exist in `game_event`
-2017-03-24 05:17:36 ERROR:`game_event_mail` game event id (75) not exist in `game_event`
-2017-03-24 05:17:36 
-2017-03-24 05:17:36 >> Loaded 4 start/end game event mails
-2017-03-24 05:17:36 >>> Game Event Data loaded
-2017-03-24 05:17:36 
-2017-03-24 05:17:36 Loading Dungeon Encounters...
-2017-03-24 05:17:36 Loading Conditions...
-2017-03-24 05:17:36 >> Loaded 751 Condition definitions
-2017-03-24 05:17:36 
-2017-03-24 05:17:36 Creating map persistent states for non-instanceable maps...
-2017-03-24 05:17:36 
-2017-03-24 05:17:36 Loading Creature Respawn Data...
-2017-03-24 05:17:37 ERROR:SQL: SELECT guid, respawntime, map, instance, difficulty, resettime, encountersMask FROM creature_respawn LEFT JOIN instance ON instance = id
-2017-03-24 05:17:37 ERROR:query ERROR: Unknown column 'encountersMask' in 'field list'
-2017-03-24 05:17:37 >> Loaded 0 creature respawn time.
-2017-03-24 05:17:37 
-2017-03-24 05:17:37 Loading Gameobject Respawn Data...
-2017-03-24 05:17:37 ERROR:SQL: SELECT guid, respawntime, map, instance, difficulty, resettime, encountersMask FROM gameobject_respawn LEFT JOIN instance ON instance = id
-2017-03-24 05:17:37 ERROR:query ERROR: Unknown column 'encountersMask' in 'field list'
-2017-03-24 05:17:37 >> Loaded 0 gameobject respawn time.
-2017-03-24 05:17:37 
-2017-03-24 05:17:37 Loading SpellArea Data...
-2017-03-24 05:17:37 >> Loaded 97 spell area requirements
-2017-03-24 05:17:37 
-2017-03-24 05:17:37 Loading AreaTrigger definitions...
-2017-03-24 05:17:37 >> Loaded 183 area trigger teleport definitions
-2017-03-24 05:17:37 
-2017-03-24 05:17:37 Loading Quest Area Triggers...
-2017-03-24 05:17:37 >> Loaded 48 quest trigger points
-2017-03-24 05:17:37 
-2017-03-24 05:17:37 Loading Tavern Area Triggers...
-2017-03-24 05:17:37 >> Loaded 79 tavern triggers
-2017-03-24 05:17:37 
-2017-03-24 05:17:37 Loading AreaTrigger script names...
-2017-03-24 05:17:37 >> Loaded 51 areatrigger scripts
-2017-03-24 05:17:37 
-2017-03-24 05:17:37 Loading event id script names...
-2017-03-24 05:17:37 >> Loaded 32 scripted event id
-2017-03-24 05:17:37 
-2017-03-24 05:17:37 Loading Graveyard-zone links...
-2017-03-24 05:17:37 >> Loaded 526 graveyard-zone links
-2017-03-24 05:17:37 
-2017-03-24 05:17:37 Loading spell target destination coordinates...
-2017-03-24 05:17:37 >> Loaded 458 spell target destination coordinates
-2017-03-24 05:17:37 
-2017-03-24 05:17:37 Loading SpellAffect definitions...
-2017-03-24 05:17:37 
-2017-03-24 05:17:37 >> Loaded 1201 spell affect definitions
-2017-03-24 05:17:37 Loading spell pet auras...
-2017-03-24 05:17:37 >> Loaded 34 spell pet auras
-2017-03-24 05:17:37 
-2017-03-24 05:17:37 Loading Player Create Info & Level Stats...
-2017-03-24 05:17:37 
-2017-03-24 05:17:37 >> Loaded 52 player create definitions
-2017-03-24 05:17:37 
-2017-03-24 05:17:37 >> Loaded 0 custom player create items
-2017-03-24 05:17:37 
-2017-03-24 05:17:37 >> Loaded 2008 player create spells
-2017-03-24 05:17:37 
-2017-03-24 05:17:37 >> Loaded 281 player create actions
-2017-03-24 05:17:37 
-2017-03-24 05:17:37 >> Loaded 630 level health/mana definitions
-2017-03-24 05:17:37 
-2017-03-24 05:17:37 >> Loaded 3640 level stats definitions
-2017-03-24 05:17:37 
-2017-03-24 05:17:37 >> Loaded 69 xp for level definitions
-2017-03-24 05:17:37 >>> Player Create Info & Level Stats loaded
-2017-03-24 05:17:37 
-2017-03-24 05:17:37 Loading Exploration BaseXP Data...
-2017-03-24 05:17:37 >> Loaded 71 BaseXP definitions
-2017-03-24 05:17:37 
-2017-03-24 05:17:37 Loading Pet Name Parts...
-2017-03-24 05:17:37 >> Loaded 260 pet name parts
-2017-03-24 05:17:37 
-2017-03-24 05:17:37 Cleaning character database...
-2017-03-24 05:17:37 
-2017-03-24 05:17:37 Loading the max pet number...
-2017-03-24 05:17:37 >> Loaded the max pet number: 14
-2017-03-24 05:17:37 
-2017-03-24 05:17:37 Loading pet level stats...
-2017-03-24 05:17:37 >> Loaded 2240 level pet stats definitions
-2017-03-24 05:17:37 
-2017-03-24 05:17:37 Loading Player Corpses...
-2017-03-24 05:17:37 >> Loaded 0 corpses
-2017-03-24 05:17:37 
-2017-03-24 05:17:37 Loading Player level dependent mail rewards...
-2017-03-24 05:17:37 >> Loaded 10 level dependent mail rewards,
-2017-03-24 05:17:37 
-2017-03-24 05:17:37 Loading Loot Tables...
-2017-03-24 05:17:37 >> Loaded 260522 loot definitions (6455 templates) from table creature_loot_template
-2017-03-24 05:17:37 
-2017-03-24 05:17:37 ERROR:Table 'creature_loot_template' entry 20555 (creature entry) not exist but used as loot id in DB.
-2017-03-24 05:17:37 ERROR:Table 'creature_loot_template' entry 17887 isn't creature entry and not referenced from loot, and then useless.
-2017-03-24 05:17:37 
-2017-03-24 05:17:37 >> Loaded 199 loot definitions (178 templates) from table fishing_loot_template
-2017-03-24 05:17:37 
-2017-03-24 05:17:37 >> Loaded 16864 loot definitions (785 templates) from table gameobject_loot_template
-2017-03-24 05:17:37 
-2017-03-24 05:17:37 >> Loaded 4738 loot definitions (221 templates) from table item_loot_template
-2017-03-24 05:17:37 
-2017-03-24 05:17:37 >> Loaded 85 loot definitions (84 templates) from table mail_loot_template
-2017-03-24 05:17:37 
-2017-03-24 05:17:37 >> Loaded 10601 loot definitions (2445 templates) from table pickpocketing_loot_template
-2017-03-24 05:17:37 
-2017-03-24 05:17:37 ERROR:Table 'pickpocketing_loot_template' entry 21387 (creature pickpocket lootid) not exist but used as loot id in DB.
-2017-03-24 05:17:37 >> Loaded 3315 loot definitions (926 templates) from table skinning_loot_template
-2017-03-24 05:17:37 
-2017-03-24 05:17:37 >> Loaded 102 loot definitions (46 templates) from table disenchant_loot_template
-2017-03-24 05:17:37 
-2017-03-24 05:17:37 >> Loaded 60 loot definitions (7 templates) from table prospecting_loot_template
-2017-03-24 05:17:37 
-2017-03-24 05:17:37 >> Loaded 6326 loot definitions (277 templates) from table reference_loot_template
-2017-03-24 05:17:37 
-2017-03-24 05:17:37 ERROR:Table 'reference_loot_template' entry 14000 (reference id) not exist but used as loot id in DB.
-2017-03-24 05:17:37 ERROR:Table 'reference_loot_template' entry 14000 (reference id) not exist but used as loot id in DB.
-2017-03-24 05:17:37 ERROR:Table 'reference_loot_template' entry 14500 (reference id) not exist but used as loot id in DB.
-2017-03-24 05:17:37 ERROR:Table 'reference_loot_template' entry 14000 (reference id) not exist but used as loot id in DB.
-2017-03-24 05:17:37 ERROR:Table 'reference_loot_template' entry 14000 (reference id) not exist but used as loot id in DB.
-2017-03-24 05:17:37 ERROR:Table 'reference_loot_template' entry 14000 (reference id) not exist but used as loot id in DB.
-2017-03-24 05:17:37 ERROR:Table 'reference_loot_template' entry 14500 (reference id) not exist but used as loot id in DB.
-2017-03-24 05:17:37 ERROR:Table 'reference_loot_template' entry 14000 (reference id) not exist but used as loot id in DB.
-2017-03-24 05:17:37 ERROR:Table 'reference_loot_template' entry 14000 (reference id) not exist but used as loot id in DB.
-2017-03-24 05:17:37 ERROR:Table 'reference_loot_template' entry 14000 (reference id) not exist but used as loot id in DB.
-2017-03-24 05:17:37 ERROR:Table 'reference_loot_template' entry 14000 (reference id) not exist but used as loot id in DB.
-2017-03-24 05:17:37 ERROR:Table 'reference_loot_template' entry 14000 (reference id) not exist but used as loot id in DB.
-2017-03-24 05:17:37 ERROR:Table 'reference_loot_template' entry 14000 (reference id) not exist but used as loot id in DB.
-2017-03-24 05:17:37 ERROR:Table 'reference_loot_template' entry 14500 (reference id) not exist but used as loot id in DB.
-2017-03-24 05:17:37 ERROR:Table 'reference_loot_template' entry 14000 (reference id) not exist but used as loot id in DB.
-2017-03-24 05:17:37 ERROR:Table 'reference_loot_template' entry 14000 (reference id) not exist but used as loot id in DB.
-2017-03-24 05:17:37 ERROR:Table 'reference_loot_template' entry 14000 (reference id) not exist but used as loot id in DB.
-2017-03-24 05:17:37 ERROR:Table 'reference_loot_template' entry 14000 (reference id) not exist but used as loot id in DB.
-2017-03-24 05:17:37 ERROR:Table 'reference_loot_template' entry 14000 (reference id) not exist but used as loot id in DB.
-2017-03-24 05:17:37 ERROR:Table 'reference_loot_template' entry 14000 (reference id) not exist but used as loot id in DB.
-2017-03-24 05:17:37 ERROR:Table 'reference_loot_template' entry 14000 (reference id) not exist but used as loot id in DB.
-2017-03-24 05:17:37 ERROR:Table 'reference_loot_template' entry 14500 (reference id) not exist but used as loot id in DB.
-2017-03-24 05:17:37 ERROR:Table 'reference_loot_template' entry 14000 (reference id) not exist but used as loot id in DB.
-2017-03-24 05:17:37 ERROR:Table 'reference_loot_template' entry 14000 (reference id) not exist but used as loot id in DB.
-2017-03-24 05:17:37 ERROR:Table 'reference_loot_template' entry 14000 (reference id) not exist but used as loot id in DB.
-2017-03-24 05:17:37 ERROR:Table 'reference_loot_template' entry 14000 (reference id) not exist but used as loot id in DB.
-2017-03-24 05:17:37 ERROR:Table 'reference_loot_template' entry 14000 (reference id) not exist but used as loot id in DB.
-2017-03-24 05:17:37 ERROR:Table 'reference_loot_template' entry 14000 (reference id) not exist but used as loot id in DB.
-2017-03-24 05:17:37 ERROR:Table 'reference_loot_template' entry 14000 (reference id) not exist but used as loot id in DB.
-2017-03-24 05:17:37 ERROR:Table 'reference_loot_template' entry 14000 (reference id) not exist but used as loot id in DB.
-2017-03-24 05:17:37 ERROR:Table 'reference_loot_template' entry 14000 (reference id) not exist but used as loot id in DB.
-2017-03-24 05:17:37 ERROR:Table 'reference_loot_template' entry 14000 (reference id) not exist but used as loot id in DB.
-2017-03-24 05:17:37 ERROR:Table 'reference_loot_template' entry 14500 (reference id) not exist but used as loot id in DB.
-2017-03-24 05:17:37 ERROR:Table 'reference_loot_template' entry 14000 (reference id) not exist but used as loot id in DB.
-2017-03-24 05:17:37 ERROR:Table 'reference_loot_template' entry 14000 (reference id) not exist but used as loot id in DB.
-2017-03-24 05:17:37 ERROR:Table 'reference_loot_template' entry 14000 (reference id) not exist but used as loot id in DB.
-2017-03-24 05:17:37 ERROR:Table 'reference_loot_template' entry 14000 (reference id) not exist but used as loot id in DB.
-2017-03-24 05:17:37 ERROR:Table 'reference_loot_template' entry 14000 (reference id) not exist but used as loot id in DB.
-2017-03-24 05:17:37 ERROR:Table 'reference_loot_template' entry 14000 (reference id) not exist but used as loot id in DB.
-2017-03-24 05:17:37 ERROR:Table 'reference_loot_template' entry 14000 (reference id) not exist but used as loot id in DB.
-2017-03-24 05:17:37 ERROR:Table 'reference_loot_template' entry 14500 (reference id) not exist but used as loot id in DB.
-2017-03-24 05:17:37 ERROR:Table 'reference_loot_template' entry 14000 (reference id) not exist but used as loot id in DB.
-2017-03-24 05:17:37 ERROR:Table 'reference_loot_template' entry 14000 (reference id) not exist but used as loot id in DB.
-2017-03-24 05:17:37 ERROR:Table 'reference_loot_template' entry 14500 (reference id) not exist but used as loot id in DB.
-2017-03-24 05:17:37 ERROR:Table 'reference_loot_template' entry 14000 (reference id) not exist but used as loot id in DB.
-2017-03-24 05:17:37 ERROR:Table 'reference_loot_template' entry 14500 (reference id) not exist but used as loot id in DB.
-2017-03-24 05:17:37 ERROR:Table 'reference_loot_template' entry 14000 (reference id) not exist but used as loot id in DB.
-2017-03-24 05:17:37 ERROR:Table 'reference_loot_template' entry 14000 (reference id) not exist but used as loot id in DB.
-2017-03-24 05:17:37 ERROR:Table 'reference_loot_template' entry 14000 (reference id) not exist but used as loot id in DB.
-2017-03-24 05:17:37 ERROR:Table 'reference_loot_template' entry 14000 (reference id) not exist but used as loot id in DB.
-2017-03-24 05:17:37 ERROR:Table 'reference_loot_template' entry 14500 (reference id) not exist but used as loot id in DB.
-2017-03-24 05:17:37 ERROR:Table 'reference_loot_template' entry 14500 (reference id) not exist but used as loot id in DB.
-2017-03-24 05:17:37 ERROR:Table 'reference_loot_template' entry 14500 (reference id) not exist but used as loot id in DB.
-2017-03-24 05:17:37 ERROR:Table 'reference_loot_template' entry 14000 (reference id) not exist but used as loot id in DB.
-2017-03-24 05:17:37 ERROR:Table 'reference_loot_template' entry 14000 (reference id) not exist but used as loot id in DB.
-2017-03-24 05:17:37 ERROR:Table 'reference_loot_template' entry 14500 (reference id) not exist but used as loot id in DB.
-2017-03-24 05:17:37 ERROR:Table 'reference_loot_template' entry 14000 (reference id) not exist but used as loot id in DB.
-2017-03-24 05:17:37 ERROR:Table 'reference_loot_template' entry 14000 (reference id) not exist but used as loot id in DB.
-2017-03-24 05:17:37 ERROR:Table 'reference_loot_template' entry 14000 (reference id) not exist but used as loot id in DB.
-2017-03-24 05:17:37 ERROR:Table 'reference_loot_template' entry 14000 (reference id) not exist but used as loot id in DB.
-2017-03-24 05:17:37 ERROR:Table 'reference_loot_template' entry 14000 (reference id) not exist but used as loot id in DB.
-2017-03-24 05:17:37 ERROR:Table 'reference_loot_template' entry 14500 (reference id) not exist but used as loot id in DB.
-2017-03-24 05:17:37 ERROR:Table 'reference_loot_template' entry 14000 (reference id) not exist but used as loot id in DB.
-2017-03-24 05:17:37 ERROR:Table 'reference_loot_template' entry 14000 (reference id) not exist but used as loot id in DB.
-2017-03-24 05:17:37 ERROR:Table 'reference_loot_template' entry 14000 (reference id) not exist but used as loot id in DB.
-2017-03-24 05:17:37 ERROR:Table 'reference_loot_template' entry 14000 (reference id) not exist but used as loot id in DB.
-2017-03-24 05:17:37 ERROR:Table 'reference_loot_template' entry 14000 (reference id) not exist but used as loot id in DB.
-2017-03-24 05:17:37 ERROR:Table 'reference_loot_template' entry 14000 (reference id) not exist but used as loot id in DB.
-2017-03-24 05:17:37 ERROR:Table 'reference_loot_template' entry 14500 (reference id) not exist but used as loot id in DB.
-2017-03-24 05:17:37 ERROR:Table 'reference_loot_template' entry 14000 (reference id) not exist but used as loot id in DB.
-2017-03-24 05:17:37 ERROR:Table 'reference_loot_template' entry 14000 (reference id) not exist but used as loot id in DB.
-2017-03-24 05:17:37 ERROR:Table 'reference_loot_template' entry 14000 (reference id) not exist but used as loot id in DB.
-2017-03-24 05:17:37 ERROR:Table 'reference_loot_template' entry 14500 (reference id) not exist but used as loot id in DB.
-2017-03-24 05:17:37 ERROR:Table 'reference_loot_template' entry 14500 (reference id) not exist but used as loot id in DB.
-2017-03-24 05:17:37 ERROR:Table 'reference_loot_template' entry 14500 (reference id) not exist but used as loot id in DB.
-2017-03-24 05:17:37 ERROR:Table 'reference_loot_template' entry 14000 (reference id) not exist but used as loot id in DB.
-2017-03-24 05:17:37 ERROR:Table 'reference_loot_template' entry 14000 (reference id) not exist but used as loot id in DB.
-2017-03-24 05:17:37 ERROR:Table 'reference_loot_template' entry 14000 (reference id) not exist but used as loot id in DB.
-2017-03-24 05:17:37 ERROR:Table 'reference_loot_template' entry 14000 (reference id) not exist but used as loot id in DB.
-2017-03-24 05:17:37 ERROR:Table 'reference_loot_template' entry 14500 (reference id) not exist but used as loot id in DB.
-2017-03-24 05:17:38 ERROR:Table 'reference_loot_template' entry 14000 (reference id) not exist but used as loot id in DB.
-2017-03-24 05:17:38 >>> Loot Tables loaded
-2017-03-24 05:17:38 
-2017-03-24 05:17:38 Loading Skill Discovery Table...
-2017-03-24 05:17:38 Loading Skill Extra Item Table...
-2017-03-24 05:17:38 >> Loaded 160 spell specialization definitions
-2017-03-24 05:17:38 
-2017-03-24 05:17:38 Loading Skill Fishing base level requirements...
-2017-03-24 05:17:38 >> Loaded 80 areas for fishing base skill level
-2017-03-24 05:17:38 
-2017-03-24 05:17:38 Loading Instance encounters data...
-2017-03-24 05:17:38 >> Loaded 397 Instance Encounters
-2017-03-24 05:17:38 
-2017-03-24 05:17:38 Loading Npc Text Id...
-2017-03-24 05:17:38 ERROR:Table `npc_gossip` have nonexistent creature (GUID: 31884) entry, ignore. 
-2017-03-24 05:17:38 ERROR:Table `npc_gossip` have nonexistent creature (GUID: 84093) entry, ignore. 
-2017-03-24 05:17:38 ERROR:Table `npc_gossip` have nonexistent creature (GUID: 84092) entry, ignore. 
-2017-03-24 05:17:38 ERROR:Table `npc_gossip` have nonexistent creature (GUID: 84091) entry, ignore. 
-2017-03-24 05:17:38 ERROR:Table `npc_gossip` have nonexistent creature (GUID: 84089) entry, ignore. 
-2017-03-24 05:17:38 ERROR:Table `npc_gossip` have nonexistent creature (GUID: 84088) entry, ignore. 
-2017-03-24 05:17:38 ERROR:Table `npc_gossip` have nonexistent creature (GUID: 84087) entry, ignore. 
-2017-03-24 05:17:38 ERROR:Table `npc_gossip` have nonexistent creature (GUID: 84086) entry, ignore. 
-2017-03-24 05:17:38 >> Loaded 2307 NpcTextId
-2017-03-24 05:17:38 
-2017-03-24 05:17:38 Loading Gossip scripts...
-2017-03-24 05:17:38 >> Loaded 451 script definitions from table dbscripts_on_gossip
-2017-03-24 05:17:38 
-2017-03-24 05:17:38 (Re)Loading Gossip menus...
-2017-03-24 05:17:38 >> Loaded 3902 gossip_menu entries
-2017-03-24 05:17:38 
-2017-03-24 05:17:38 (Re)Loading Gossip menu options...
-2017-03-24 05:17:38 ERROR:Table gossip_menu_option for menu 6535, id 0 has condition_id 1079 that does not exist in `conditions`, ignoring
-2017-03-24 05:17:38 >> Loaded 2946 gossip_menu_option entries
-2017-03-24 05:17:38 
-2017-03-24 05:17:38 Loading Vendors...
-2017-03-24 05:17:38 >> Loaded 3353 vendor template items
-2017-03-24 05:17:38 
-2017-03-24 05:17:38 >> Loaded 6151 vendor items
-2017-03-24 05:17:38 
-2017-03-24 05:17:38 Loading Trainers...
-2017-03-24 05:17:38 >> Loaded 5713 trainer template spells
-2017-03-24 05:17:38 
-2017-03-24 05:17:38 >> Loaded 904 trainer spells
-2017-03-24 05:17:38 
-2017-03-24 05:17:38 Loading Waypoint scripts...
-2017-03-24 05:17:38 >> Loaded 3243 script definitions from table dbscripts_on_creature_movement
-2017-03-24 05:17:38 
-2017-03-24 05:17:38 Loading Waypoints...
-2017-03-24 05:17:49 ERROR:Table creature_movement contain path for creature guid 140769, but this creature guid does not exist. Skipping.
-2017-03-24 05:17:49 ERROR:Table creature_movement contain path for creature guid 140769, but this creature guid does not exist. Skipping.
-2017-03-24 05:17:49 ERROR:Table creature_movement contain path for creature guid 140769, but this creature guid does not exist. Skipping.
-2017-03-24 05:17:49 ERROR:Table creature_movement contain path for creature guid 140769, but this creature guid does not exist. Skipping.
-2017-03-24 05:17:49 ERROR:Table creature_movement contain path for creature guid 140769, but this creature guid does not exist. Skipping.
-2017-03-24 05:17:49 ERROR:Table creature_movement contain path for creature guid 140769, but this creature guid does not exist. Skipping.
-2017-03-24 05:17:49 ERROR:Table creature_movement contain path for creature guid 140769, but this creature guid does not exist. Skipping.
-2017-03-24 05:17:49 ERROR:Table creature_movement contain path for creature guid 140769, but this creature guid does not exist. Skipping.
-2017-03-24 05:17:49 ERROR:Table creature_movement contain path for creature guid 140769, but this creature guid does not exist. Skipping.
-2017-03-24 05:17:49 ERROR:Table creature_movement contain path for creature guid 140769, but this creature guid does not exist. Skipping.
-2017-03-24 05:17:49 ERROR:Table creature_movement contain path for creature guid 140769, but this creature guid does not exist. Skipping.
-2017-03-24 05:17:49 ERROR:Table creature_movement contain path for creature guid 140770, but this creature guid does not exist. Skipping.
-2017-03-24 05:17:49 ERROR:Table creature_movement contain path for creature guid 140770, but this creature guid does not exist. Skipping.
-2017-03-24 05:17:49 ERROR:Table creature_movement contain path for creature guid 140770, but this creature guid does not exist. Skipping.
-2017-03-24 05:17:49 ERROR:Table creature_movement contain path for creature guid 140770, but this creature guid does not exist. Skipping.
-2017-03-24 05:17:49 ERROR:Table creature_movement contain path for creature guid 65621, but this creature guid does not exist. Skipping.
-2017-03-24 05:17:49 ERROR:Table creature_movement contain path for creature guid 65621, but this creature guid does not exist. Skipping.
-2017-03-24 05:17:49 ERROR:Table creature_movement contain path for creature guid 65621, but this creature guid does not exist. Skipping.
-2017-03-24 05:17:49 ERROR:Table creature_movement contain path for creature guid 65621, but this creature guid does not exist. Skipping.
-2017-03-24 05:17:49 ERROR:Table creature_movement contain path for creature guid 65621, but this creature guid does not exist. Skipping.
-2017-03-24 05:17:49 ERROR:Table creature_movement contain path for creature guid 65621, but this creature guid does not exist. Skipping.
-2017-03-24 05:17:49 ERROR:Table creature_movement contain path for creature guid 65621, but this creature guid does not exist. Skipping.
-2017-03-24 05:17:49 ERROR:Table creature_movement contain path for creature guid 65621, but this creature guid does not exist. Skipping.
-2017-03-24 05:17:49 ERROR:Table creature_movement contain path for creature guid 65621, but this creature guid does not exist. Skipping.
-2017-03-24 05:17:49 ERROR:Table creature_movement contain path for creature guid 65621, but this creature guid does not exist. Skipping.
-2017-03-24 05:17:49 ERROR:Table creature_movement contain path for creature guid 65621, but this creature guid does not exist. Skipping.
-2017-03-24 05:17:49 ERROR:Table creature_movement contain path for creature guid 65621, but this creature guid does not exist. Skipping.
-2017-03-24 05:17:49 ERROR:Table creature_movement contain path for creature guid 65621, but this creature guid does not exist. Skipping.
-2017-03-24 05:17:49 ERROR:Table creature_movement contain path for creature guid 65621, but this creature guid does not exist. Skipping.
-2017-03-24 05:17:49 ERROR:Table creature_movement contain path for creature guid 65621, but this creature guid does not exist. Skipping.
-2017-03-24 05:17:49 ERROR:Table creature_movement contain path for creature guid 65621, but this creature guid does not exist. Skipping.
-2017-03-24 05:17:49 ERROR:Table creature_movement contain path for creature guid 65621, but this creature guid does not exist. Skipping.
-2017-03-24 05:17:49 ERROR:Table creature_movement contain path for creature guid 65621, but this creature guid does not exist. Skipping.
-2017-03-24 05:17:49 ERROR:Table creature_movement contain path for creature guid 65621, but this creature guid does not exist. Skipping.
-2017-03-24 05:17:49 ERROR:Table creature_movement contain path for creature guid 65621, but this creature guid does not exist. Skipping.
-2017-03-24 05:17:49 ERROR:Table creature_movement contain path for creature guid 65621, but this creature guid does not exist. Skipping.
-2017-03-24 05:17:49 ERROR:Table creature_movement contain path for creature guid 140770, but this creature guid does not exist. Skipping.
-2017-03-24 05:17:49 ERROR:Table creature_movement contain path for creature guid 140770, but this creature guid does not exist. Skipping.
-2017-03-24 05:17:49 ERROR:Table creature_movement contain path for creature guid 140770, but this creature guid does not exist. Skipping.
-2017-03-24 05:17:49 ERROR:Table creature_movement contain path for creature guid 140770, but this creature guid does not exist. Skipping.
-2017-03-24 05:17:49 ERROR:Table creature_movement contain path for creature guid 140770, but this creature guid does not exist. Skipping.
-2017-03-24 05:17:49 ERROR:Table creature_movement contain path for creature guid 75893, but this creature guid does not exist. Skipping.
-2017-03-24 05:17:49 ERROR:Table creature_movement contain path for creature guid 75893, but this creature guid does not exist. Skipping.
-2017-03-24 05:17:49 ERROR:Table creature_movement contain path for creature guid 75893, but this creature guid does not exist. Skipping.
-2017-03-24 05:17:49 ERROR:Table creature_movement contain path for creature guid 75893, but this creature guid does not exist. Skipping.
-2017-03-24 05:17:49 ERROR:Table creature_movement contain path for creature guid 75893, but this creature guid does not exist. Skipping.
-2017-03-24 05:17:49 ERROR:Table creature_movement contain path for creature guid 75893, but this creature guid does not exist. Skipping.
-2017-03-24 05:17:49 ERROR:Table creature_movement contain path for creature guid 75893, but this creature guid does not exist. Skipping.
-2017-03-24 05:17:49 ERROR:Table creature_movement contain path for creature guid 75893, but this creature guid does not exist. Skipping.
-2017-03-24 05:17:49 ERROR:Table creature_movement contain path for creature guid 75893, but this creature guid does not exist. Skipping.
-2017-03-24 05:17:49 ERROR:Table creature_movement contain path for creature guid 75893, but this creature guid does not exist. Skipping.
-2017-03-24 05:17:49 ERROR:Table creature_movement contain path for creature guid 75893, but this creature guid does not exist. Skipping.
-2017-03-24 05:17:49 ERROR:Table creature_movement contain path for creature guid 75893, but this creature guid does not exist. Skipping.
-2017-03-24 05:17:49 ERROR:Table creature_movement contain path for creature guid 75897, but this creature guid does not exist. Skipping.
-2017-03-24 05:17:49 ERROR:Table creature_movement contain path for creature guid 75897, but this creature guid does not exist. Skipping.
-2017-03-24 05:17:49 ERROR:Table creature_movement contain path for creature guid 75897, but this creature guid does not exist. Skipping.
-2017-03-24 05:17:49 ERROR:Table creature_movement contain path for creature guid 75897, but this creature guid does not exist. Skipping.
-2017-03-24 05:17:49 ERROR:Table creature_movement contain path for creature guid 75897, but this creature guid does not exist. Skipping.
-2017-03-24 05:17:49 ERROR:Table creature_movement contain path for creature guid 75897, but this creature guid does not exist. Skipping.
-2017-03-24 05:17:49 ERROR:Table creature_movement contain path for creature guid 75897, but this creature guid does not exist. Skipping.
-2017-03-24 05:17:49 ERROR:Table creature_movement contain path for creature guid 75897, but this creature guid does not exist. Skipping.
-2017-03-24 05:17:49 ERROR:Table creature_movement contain path for creature guid 75897, but this creature guid does not exist. Skipping.
-2017-03-24 05:17:49 ERROR:Table creature_movement contain path for creature guid 75899, but this creature guid does not exist. Skipping.
-2017-03-24 05:17:49 ERROR:Table creature_movement contain path for creature guid 75899, but this creature guid does not exist. Skipping.
-2017-03-24 05:17:49 ERROR:Table creature_movement contain path for creature guid 75899, but this creature guid does not exist. Skipping.
-2017-03-24 05:17:49 ERROR:Table creature_movement contain path for creature guid 75899, but this creature guid does not exist. Skipping.
-2017-03-24 05:17:49 ERROR:Table creature_movement contain path for creature guid 75899, but this creature guid does not exist. Skipping.
-2017-03-24 05:17:49 ERROR:Table creature_movement contain path for creature guid 75899, but this creature guid does not exist. Skipping.
-2017-03-24 05:17:49 ERROR:Table creature_movement contain path for creature guid 75899, but this creature guid does not exist. Skipping.
-2017-03-24 05:17:49 ERROR:Table creature_movement contain path for creature guid 75899, but this creature guid does not exist. Skipping.
-2017-03-24 05:17:49 ERROR:    creature_template for this entry has MovementType WAYPOINT_MOTION_TYPE(2), did you intend to use creature_movement_template ?
-2017-03-24 05:17:49 >> Loaded 3885 paths, 69257 nodes and 253 behaviors from waypoints
-2017-03-24 05:17:49 
-2017-03-24 05:17:49 >> Loaded 459 path templates with 12737 nodes and 36 behaviors from waypoint templates
-2017-03-24 05:17:49 
-2017-03-24 05:17:49 Loading ReservedNames...
-2017-03-24 05:17:49 >> Loaded 0 reserved player names
-2017-03-24 05:17:49 
-2017-03-24 05:17:49 Loading GameObjects for quests...
-2017-03-24 05:17:49 >> Loaded 944 GameObjects for quests
-2017-03-24 05:17:49 
-2017-03-24 05:17:49 Loading BattleMasters...
-2017-03-24 05:17:49 >> Loaded 71 battlemaster entries
-2017-03-24 05:17:49 
-2017-03-24 05:17:49 Loading BattleGround event indexes...
-2017-03-24 05:17:49 >> Loaded 1236 battleground eventindexes
-2017-03-24 05:17:49 
-2017-03-24 05:17:49 Loading GameTeleports...
-2017-03-24 05:17:49 >> Loaded 425 GameTeleports
-2017-03-24 05:17:49 
-2017-03-24 05:17:49 Loading Localization strings...
-2017-03-24 05:17:49 >> Loaded 0 creature locale strings. DB table `locales_creature` is empty.
-2017-03-24 05:17:49 >> Loaded 0 gameobject locale strings. DB table `locales_gameobject` is empty.
-2017-03-24 05:17:49 >> Loaded 0 Item locale strings. DB table `locales_item` is empty.
-2017-03-24 05:17:49 >> Loaded 0 Quest locale strings. DB table `locales_quest` is empty.
-2017-03-24 05:17:49 >> Loaded 0 Quest locale strings. DB table `locales_npc_text` is empty.
-2017-03-24 05:17:49 >> Loaded 0 PageText locale strings. DB table `locales_page_text` is empty.
-2017-03-24 05:17:49 >> Loaded 0 gossip_menu_option locale strings. DB table `locales_gossip_menu_option` is empty.
-2017-03-24 05:17:49 >> Loaded 0 points_of_interest locale strings. DB table `locales_points_of_interest` is empty.
-2017-03-24 05:17:49 >>> Localization strings loaded
-2017-03-24 05:17:49 
-2017-03-24 05:17:49 Loading Auctions...
-2017-03-24 05:17:49 >> Loaded 0 auction items
-2017-03-24 05:17:49 >> Loaded 0 auctions. DB table `auction` is empty.
-2017-03-24 05:17:49 >>> Auctions loaded
-2017-03-24 05:17:49 
-2017-03-24 05:17:49 Loading Guilds...
-2017-03-24 05:17:49 >> Loaded 2 guild definitions
-2017-03-24 05:17:49 
-2017-03-24 05:17:49 Loading ArenaTeams...
-2017-03-24 05:17:49 >> Loaded 0 arenateam definitions
-2017-03-24 05:17:49 
-2017-03-24 05:17:49 Loading Groups...
-2017-03-24 05:17:49 >> Loaded 0 group definitions
-2017-03-24 05:17:49 
-2017-03-24 05:17:49 Returning old mails...
-2017-03-24 05:17:49 >> Only expired mails (need to be return or delete) or DB table `mail` is empty.
-2017-03-24 05:17:49 
-2017-03-24 05:17:49 Loading GM tickets...
-2017-03-24 05:17:49 >> Loaded 1 GM tickets
-2017-03-24 05:17:49 
-2017-03-24 05:17:49 Loading DB-Scripts Engine...
-2017-03-24 05:17:49 >> Loaded 548 script definitions from table dbscripts_on_quest_start
-2017-03-24 05:17:49 
-2017-03-24 05:17:49 ERROR:Table `dbscripts_on_quest_end` has invalid gameobject (GUID: 150041) in SCRIPT_COMMAND_RESPAWN_GAMEOBJECT for script id 524
-2017-03-24 05:17:49 >> Loaded 831 script definitions from table dbscripts_on_quest_end
-2017-03-24 05:17:49 
-2017-03-24 05:17:49 >> Loaded 70 script definitions from table dbscripts_on_spell
-2017-03-24 05:17:49 
-2017-03-24 05:17:49 >> Loaded 109 script definitions from table dbscripts_on_go_use
-2017-03-24 05:17:49 
-2017-03-24 05:17:49 >> Loaded 235 script definitions from table dbscripts_on_go_template_use
-2017-03-24 05:17:49 
-2017-03-24 05:17:49 >> Loaded 804 script definitions from table dbscripts_on_event
-2017-03-24 05:17:49 
-2017-03-24 05:17:49 >> Loaded 147 script definitions from table dbscripts_on_creature_death
-2017-03-24 05:17:49 
-2017-03-24 05:17:49 >>> Scripts loaded
-2017-03-24 05:17:49 
-2017-03-24 05:17:49 Loading Scripts text locales...
-2017-03-24 05:17:49 Loading texts from db_script_string, with additional data
-2017-03-24 05:17:49 >> Loaded 1368 text templates from db_script_string
-2017-03-24 05:17:49 
-2017-03-24 05:17:49 ERROR:Table `db_script_string` is missing string id 2000009036, used in database script table dbscripts_on_quest_end id 10528.
-2017-03-24 05:17:49 ERROR:Table `db_script_string` is missing string id 2000000029, used in database script table dbscripts_on_quest_start id 1713.
-2017-03-24 05:17:49 ERROR:Table `db_script_string` has unused string id 2000000502
-2017-03-24 05:17:49 ERROR:Table `db_script_string` has unused string id 2000005147
-2017-03-24 05:17:49 Loading CreatureEventAI Texts...
-2017-03-24 05:17:49 Loading texts from creature_ai_texts, with additional data
-2017-03-24 05:17:49 >> Loaded 1171 text templates from creature_ai_texts
-2017-03-24 05:17:49 
-2017-03-24 05:17:49 Loading CreatureEventAI Summons...
-2017-03-24 05:17:49 >> Loaded 32 CreatureEventAI summon definitions
-2017-03-24 05:17:49 
-2017-03-24 05:17:49 Loading CreatureEventAI Scripts...
-2017-03-24 05:17:49 >> Loaded 19308 CreatureEventAI scripts
-2017-03-24 05:17:49 
-2017-03-24 05:17:49 Initializing Scripting Library...
-2017-03-24 05:17:49 
-2017-03-24 05:17:49  MMM  MMM    MM
-2017-03-24 05:17:49 M  MM M  M  M  M
-2017-03-24 05:17:49 MM    M   M   M
-2017-03-24 05:17:49  MMM  M   M  M
-2017-03-24 05:17:49    MM M   M MMMM
-2017-03-24 05:17:49 MM  M M  M 
-2017-03-24 05:17:49  MMM  MMM  http://www.scriptdev2.com
-2017-03-24 05:17:49 
-2017-03-24 05:17:49 SD2: Using configuration file mangosd.conf
-2017-03-24 05:17:49 
-2017-03-24 05:17:49 MySQL client library: 5.1.49
-2017-03-24 05:17:49 MySQL server ver: 5.5.5-10.1.21-MariaDB 
-2017-03-24 05:17:49 MySQL client library: 5.1.49
-2017-03-24 05:17:49 MySQL server ver: 5.5.5-10.1.21-MariaDB 
-2017-03-24 05:17:49 SD2: ScriptDev2 database initialized.
-2017-03-24 05:17:49 
-2017-03-24 05:17:49 SD2: Loading Script Texts...
-2017-03-24 05:17:49 Loading texts from script_texts, with additional data
-2017-03-24 05:17:49 >> Loaded 2682 text templates from script_texts
-2017-03-24 05:17:49 
-2017-03-24 05:17:49 SD2: Loading Custom Texts...
-2017-03-24 05:17:49 Loading texts from custom_texts, with additional data
-2017-03-24 05:17:49 
-2017-03-24 05:17:49 >> Loaded 0 string templates. DB table `custom_texts` is empty.
-2017-03-24 05:17:49 SD2: Loading Gossip Texts...
-2017-03-24 05:17:49 Loading texts from gossip_texts
-2017-03-24 05:17:49 >> Loaded 64 string templates from gossip_texts
-2017-03-24 05:17:49 
-2017-03-24 05:17:49 SD2: Loading Script Waypoints for 93 creature(s)...
-2017-03-24 05:17:49 
-2017-03-24 05:17:49 >> Loaded 2902 Script Waypoint nodes.
-2017-03-24 05:17:49 SD2: Loading C++ scripts
-2017-03-24 05:17:49 
-2017-03-24 05:17:49 >> Loaded 698 C++ Scripts.
-2017-03-24 05:17:49 Scripting library loaded.
-2017-03-24 05:17:49 
-2017-03-24 05:17:49 Initialize game time and timers
-2017-03-24 05:17:49 Starting Map System
-2017-03-24 05:17:49 
-2017-03-24 05:17:49 Starting BattleGround System
-2017-03-24 05:17:49 >> Loaded 8 battlegrounds
-2017-03-24 05:17:49 
-2017-03-24 05:17:49 Starting Outdoor PvP System
-2017-03-24 05:17:49 >> Loaded 6 Outdoor PvP zones
-2017-03-24 05:17:49 
-2017-03-24 05:17:49 Loading Transports...
-2017-03-24 05:17:49 >> Loaded 9 transports
-2017-03-24 05:17:49 
-2017-03-24 05:17:49 Deleting expired bans...
-2017-03-24 05:17:49 
-2017-03-24 05:17:49 Calculate next daily quest reset time...
-2017-03-24 05:17:49 
-2017-03-24 05:17:49 Calculate next weekly quest reset time...
-2017-03-24 05:17:49 
-2017-03-24 05:17:49 Calculate next monthly quest reset time...
-2017-03-24 05:17:49 
-2017-03-24 05:17:49 Starting Game Event system...
-2017-03-24 05:17:49 GameEvent 21 "Call to Arms: Eye of the Storm!" started.
-2017-03-24 05:17:49 GameEvent 27 "Nights" started.
-2017-03-24 05:17:49 GameEvent 32 "Edge of Madness, Wushoolay" started.
-2017-03-24 05:17:49 GameEvent 47 "Brew of the Month - March" started.
-2017-03-24 05:17:49 GameEvent 62 "Darkmoon Faire (Mulgore) - Building Stage 1" started.
-2017-03-24 05:17:49 
-2017-03-24 05:17:49 Loading grids for active creatures or transports...
-2017-03-24 05:17:50 
-2017-03-24 05:17:50 Player::DeleteOldChars: Deleting all characters which have been deleted 30 days before...
-2017-03-24 05:17:50 
-2017-03-24 05:17:50 Initialize AuctionHouseBot...
-2017-03-24 05:17:50 AHBOT is Disabled. Unable to open configuration file(ahbot.conf). 
-2017-03-24 05:17:50 
-2017-03-24 05:17:50 ---------------------------------------
-2017-03-24 05:17:50       CMANGOS: World initialized       
-2017-03-24 05:17:50 ---------------------------------------
-2017-03-24 05:17:50 
-2017-03-24 05:17:50 SERVER STARTUP TIME: 0 minutes 21 seconds
-2017-03-24 05:17:50 
-2017-03-24 05:17:50 
-2017-03-24 05:17:50 mangosd process priority class set to HIGH
-2017-03-24 05:17:50 
-2017-03-24 05:17:50 MaNGOSsoap: bound to http://0.0.0.0:7878
-2017-03-24 05:25:19 ERROR:SOAP shutting down
-2017-03-24 05:25:20 ERROR:SQL: UPDATE realmlist SET realmflags = realmflags | 2 WHERE id = '1'
-2017-03-24 05:25:20 ERROR:SQL ERROR: MySQL server has gone away
-2017-03-24 05:25:20 ERROR:SQL: UPDATE account SET active_realm_id = 0 WHERE active_realm_id = '1'
-2017-03-24 05:25:20 ERROR:SQL ERROR: MySQL server has gone away
-2017-03-24 05:25:20 ERROR:SQL: UPDATE characters SET online = 0 WHERE online<>0
-2017-03-24 05:25:20 ERROR:SQL ERROR: MySQL server has gone away
-2017-03-24 05:25:20 ERROR:SQL: UPDATE character_battleground_data SET instance_id = 0
-2017-03-24 05:25:20 ERROR:SQL ERROR: MySQL server has gone away
-2017-03-24 05:25:20 Halting process...
+2017-03-24 07:32:52 Using configuration file mangosd.conf.
+2017-03-24 07:32:52 World Database total connections: 2
+2017-03-24 07:32:52 MySQL client library: 5.1.49
+2017-03-24 07:32:52 MySQL server ver: 5.7.14 
+2017-03-24 07:32:52 MySQL client library: 5.1.49
+2017-03-24 07:32:52 MySQL server ver: 5.7.14 
+2017-03-24 07:32:52 Character Database total connections: 2
+2017-03-24 07:32:52 MySQL client library: 5.1.49
+2017-03-24 07:32:52 MySQL server ver: 5.7.14 
+2017-03-24 07:32:52 MySQL client library: 5.1.49
+2017-03-24 07:32:52 MySQL server ver: 5.7.14 
+2017-03-24 07:32:52 Login Database total connections: 2
+2017-03-24 07:32:52 MySQL client library: 5.1.49
+2017-03-24 07:32:52 MySQL server ver: 5.7.14 
+2017-03-24 07:32:52 MySQL client library: 5.1.49
+2017-03-24 07:32:52 MySQL server ver: 5.7.14 
+2017-03-24 07:32:52 
+2017-03-24 07:32:52 Realm running as realm ID 1
+2017-03-24 07:32:52 
+2017-03-24 07:32:52 Using World DB: TBC-DB 1.5.0 'PRE-RELEASE BUILD' for CMaNGOS-TBC
+2017-03-24 07:32:52 Using creature EventAI: ACID 2.4.3 (The Burning Crusades) for CMaNGOS-TBC (2.4.3 Client)
+2017-03-24 07:32:52 
+2017-03-24 07:32:52 Using DataDir ./
+2017-03-24 07:32:52 WORLD: VMap support included. LineOfSight:1, getHeight:1, indoorCheck:1
+2017-03-24 07:32:52 WORLD: VMap data directory is: ./vmaps
+2017-03-24 07:32:52 WORLD: MMap pathfinding enabled
+2017-03-24 07:32:52 
+2017-03-24 07:32:52 Loading MaNGOS strings...
+2017-03-24 07:32:52 Loading texts from mangos_string
+2017-03-24 07:32:52 >> Loaded 851 MaNGOS strings from table mangos_string
+2017-03-24 07:32:52 
+2017-03-24 07:32:52 Loading spell_template...
+2017-03-24 07:32:53 >> Loaded 28355 spell_dbc records
+2017-03-24 07:32:53 
+2017-03-24 07:32:53 Initialize DBC data stores...
+2017-03-24 07:32:53 >> Initialized 66 data stores
+2017-03-24 07:32:53 
+2017-03-24 07:32:53 Using enUS DBC Locale as default. All available DBC locales: enUS 
+2017-03-24 07:32:53 
+2017-03-24 07:32:53 Loading Script Names...
+2017-03-24 07:32:53 >> Loaded 697 Script Names
+2017-03-24 07:32:53 
+2017-03-24 07:32:53 Loading WorldTemplate...
+2017-03-24 07:32:54 >> Loaded 3 World Template definitions
+2017-03-24 07:32:54 
+2017-03-24 07:32:54 Loading InstanceTemplate...
+2017-03-24 07:32:54 >> Loaded 58 Instance Template definitions
+2017-03-24 07:32:54 
+2017-03-24 07:32:54 Loading SkillLineAbilityMultiMap Data...
+2017-03-24 07:32:54 >> Loaded 7025 SkillLineAbility MultiMap Data
+2017-03-24 07:32:54 
+2017-03-24 07:32:54 Loading SkillRaceClassInfoMultiMap Data...
+2017-03-24 07:32:54 >> Loaded 168 SkillRaceClassInfo MultiMap Data
+2017-03-24 07:32:54 
+2017-03-24 07:32:54 Cleaning up instances...
+2017-03-24 07:32:54 >> Instances cleaned up
+2017-03-24 07:32:54 
+2017-03-24 07:32:54 Packing instances...
+2017-03-24 07:32:54 >> Instance numbers remapped, next instance id is 1
+2017-03-24 07:32:54 
+2017-03-24 07:32:54 Packing groups...
+2017-03-24 07:32:54 >> Group Ids remapped, next group id is 1
+2017-03-24 07:32:54 
+2017-03-24 07:32:54 
+2017-03-24 07:32:54 Loading Page Texts...
+2017-03-24 07:32:54 >> Loaded 1430 page texts
+2017-03-24 07:32:54 
+2017-03-24 07:32:54 Loading Game Object Templates...
+2017-03-24 07:32:54 >> Loaded 13774 game object templates
+2017-03-24 07:32:54 
+2017-03-24 07:32:54 Loading GameObject models...
+2017-03-24 07:32:54 
+2017-03-24 07:32:54 Loading Spell Chain Data...
+2017-03-24 07:32:54 >> Loaded 3718 spell chain records (2300 from DBC data with 2 req field updates, and 1418 loaded from table)
+2017-03-24 07:32:54 
+2017-03-24 07:32:54 Loading Spell Elixir types...
+2017-03-24 07:32:54 >> Loaded 106 spell elixir definitions
+2017-03-24 07:32:54 
+2017-03-24 07:32:54 Loading Spell Learn Skills...
+2017-03-24 07:32:54 >> Loaded 78 Spell Learn Skills from DBC
+2017-03-24 07:32:54 
+2017-03-24 07:32:54 Loading Spell Learn Spells...
+2017-03-24 07:32:54 >> Loaded 17 spell learn spells + 477 found in DBC
+2017-03-24 07:32:54 
+2017-03-24 07:32:54 Loading Spell Proc Event conditions...
+2017-03-24 07:32:54 >> Loaded 331 extra spell proc event conditions +14 custom proc (inc. +8 custom ranks)
+2017-03-24 07:32:54 
+2017-03-24 07:32:54 Loading Spell Bonus Data...
+2017-03-24 07:32:54 >> Loaded 135 extra spell bonus data
+2017-03-24 07:32:54 
+2017-03-24 07:32:54 Loading Spell Proc Item Enchant...
+2017-03-24 07:32:54 >> Loaded 4 proc item enchant definitions
+2017-03-24 07:32:54 
+2017-03-24 07:32:54 Loading Aggro Spells Definitions...
+2017-03-24 07:32:54 >> Loaded 151 spell threat entries
+2017-03-24 07:32:54 
+2017-03-24 07:32:54 Loading NPC Texts...
+2017-03-24 07:32:54 >> Loaded 5887 npc texts
+2017-03-24 07:32:54 
+2017-03-24 07:32:54 Loading Item Random Enchantments Table...
+2017-03-24 07:32:54 >> Loaded 28408 Item Enchantment definitions
+2017-03-24 07:32:54 
+2017-03-24 07:32:54 Loading Item Templates...
+2017-03-24 07:32:55 ERROR:Item (Entry: 23247) has wrong ExtraFlags (2) with unused bits set
+2017-03-24 07:32:55 ERROR:Item (Entry: 23379) has wrong ExtraFlags (2) with unused bits set
+2017-03-24 07:32:55 >> Loaded 24985 item prototypes
+2017-03-24 07:32:55 
+2017-03-24 07:32:55 Loading Item Texts...
+2017-03-24 07:32:55 
+2017-03-24 07:32:55 >> Loaded 0 item pages
+2017-03-24 07:32:55 Loading Creature Model Based Info Data...
+2017-03-24 07:32:55 >> Loaded 17001 creature model based info
+2017-03-24 07:32:55 
+2017-03-24 07:32:55 Loading Equipment templates...
+2017-03-24 07:32:55 >> Loaded 8368 equipment template
+2017-03-24 07:32:55 
+2017-03-24 07:32:55 >> Loaded 1091 equipment template (deprecated format)
+2017-03-24 07:32:55 
+2017-03-24 07:32:55 Loading Creature Stats...
+2017-03-24 07:32:55 >> Found 225 creature stats definitions.
+2017-03-24 07:32:55 
+2017-03-24 07:32:55 Loading Creature templates...
+2017-03-24 07:32:55 >> Loaded 18790 creature definitions
+2017-03-24 07:32:55 
+2017-03-24 07:32:55 Loading Creature template spells...
+2017-03-24 07:32:55 >> Loaded 4408 creature_template_spells definitions
+2017-03-24 07:32:55 
+2017-03-24 07:32:55 Loading Creature Model for race...
+2017-03-24 07:32:55 >> Loaded 13 creature_model_race entries
+2017-03-24 07:32:55 
+2017-03-24 07:32:55 Loading SpellsScriptTarget...
+2017-03-24 07:32:55 ERROR:Table `spell_script_target`: spellId 38096 listed for TargetEntry 17886 does not exist.
+2017-03-24 07:32:55 >> Loaded 1958 spell_script_target definitions
+2017-03-24 07:32:55 
+2017-03-24 07:32:55 Loading ItemRequiredTarget...
+2017-03-24 07:32:55 >> Loaded 60 Item required targets
+2017-03-24 07:32:55 
+2017-03-24 07:32:55 Loading Reputation Reward Rates...
+2017-03-24 07:32:55 >> Loaded 3 reputation_reward_rate
+2017-03-24 07:32:55 
+2017-03-24 07:32:55 Loading Creature Reputation OnKill Data...
+2017-03-24 07:32:55 >> Loaded 1454 creature award reputation definitions
+2017-03-24 07:32:55 
+2017-03-24 07:32:55 Loading Reputation Spillover Data...
+2017-03-24 07:32:55 >> Loaded 16 reputation_spillover_template
+2017-03-24 07:32:55 
+2017-03-24 07:32:55 Loading Points Of Interest Data...
+2017-03-24 07:32:55 >> Loaded 379 Points of Interest definitions
+2017-03-24 07:32:55 
+2017-03-24 07:32:55 Loading Pet Create Spells...
+2017-03-24 07:32:55 
+2017-03-24 07:32:55 >> Loaded 8 pet create spells from table and 474 from DBC
+2017-03-24 07:32:55 Loading Creature Data...
+2017-03-24 07:32:56 ERROR:Table `creature` have creature (GUID: 140775 Entry: 8394) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (2762), `creature_template`.`MinLevelHealth`=2766.
+2017-03-24 07:32:56 ERROR:Table `creature` have creature (GUID: 128984 Entry: 15353) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (1605), `creature_template`.`MinLevelHealth`=5100.
+2017-03-24 07:32:56 ERROR:Table `creature` have creature (GUID: 190307 Entry: 15105) with `creature_template`.`RegenerateStats` & REGEN_FLAG_HEALTH and low current health (852), `creature_template`.`MinLevelHealth`=1605.
