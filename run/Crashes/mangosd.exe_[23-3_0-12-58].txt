@@ -1,0 +1,154 @@
+Revision: * * *
+Date 23:3:2017. Time 0:12 
+//=====================================================
+*** Hardware ***
+Processor: Intel(R) Xeon(R) CPU E5-1620 0 @ 3.60GHz
+Number Of Processors: 4
+Physical Memory: 12582392 KB (Available: 9101500 KB)
+Commit Charge Limit: 25162924 KB
+
+*** Operation System ***
+Windows 7 Service Pack 1 (Version 6.1, Build 7601)
+
+//=====================================================
+Exception code: C0000005 ACCESS_VIOLATION
+Fault address:  0000000140071C49 01:0000000000070C49 C:\mangos\run\mangosd.exe
+
+Registers:
+RAX:0000000000000000
+RBX:0000000000000000
+RCX:0000000000000000
+RDX:0000000016B79A70
+RSI:0000000016B79A90
+RDI:0000000016B79A70
+R8: 0000000002A1FCB0
+R9: 0000000000000000
+R10:0000000002A1FD80
+R11:0000000000000000
+R12:0000000000000000
+R13:0000000000000000
+R14:0000000000000000
+R15:0000006800000001
+CS:RIP:0033:0000000140071C49
+SS:RSP:002B:0000000002A1FDA0  RBP:02A1FE80
+DS:002B  ES:002B  FS:0053  GS:002B
+Flags:00010246
+
+Call stack:
+Address   Frame     Function      SourceFile
+0000000140071C49  0000000002A1FDC0  SqlConnection::ExecuteStmt+29  c:\mangos\src\shared\database\database.cpp line 89
+0000000140083DDD  0000000002A1FE00  SqlPreparedRequest::Execute+4D  c:\mangos\src\shared\database\sqloperations.cpp line 82
+0000000140084E64  0000000002A1FE80  SqlDelayThread::ProcessRequests+154  c:\mangos\src\shared\database\sqldelaythread.cpp line 84
+0000000140085062  0000000002A1FEB0  SqlDelayThread::run+52  c:\mangos\src\shared\database\sqldelaythread.cpp line 52
+000000014007A6E5  0000000002A1FEF0  std::_LaunchPad<std::unique_ptr<std::tuple<void (__cdecl*)(void * __ptr64),void * __ptr64>,std::default_delete<std::tuple<void (__cdecl*)(void * __ptr64),void * __ptr64> > > >::_Run+75  c:\program files (x86)\microsoft visual studio 14.0\vc\include\thr\xthread line 247
+0000000140024089  0000000002A1FF20  std::_Pad::_Call_func+9  c:\program files (x86)\microsoft visual studio 14.0\vc\include\thr\xthread line 210
+000007FEF195BE1D  0000000002A1FF50  _crt_at_quick_exit+7D
+00000000777B59CD  0000000002A1FF80  BaseThreadInitThunk+D
+00000000779EA561  0000000002A1FFD0  RtlUserThreadStart+21
+
+Call stack:
+Address   Frame     Function      SourceFile
+0000000077A0BD7A  000000000012F890  ZwWaitForSingleObject+A
+000007FEFD8410AC  000000000012F930  WaitForSingleObjectEx+9C
+000007FEF1851EEF  000000000012F960  _Thrd_join+1F
+000000014007A8DC  000000000012F9B0  MaNGOS::Thread::wait+7C  c:\mangos\src\shared\threading.cpp line 58
+000000014007208D  000000000012F9E0  Database::HaltDelayThread+2D  c:\mangos\src\shared\database\database.cpp line 185
+000000014005C925  000000000012FD10  Master::Run+AD5  c:\mangos\src\mangosd\master.cpp line 259
+0000000140057211  000000000012FF10  main+A11  c:\mangos\src\mangosd\main.cpp line 202
+0000000140066085  000000000012FF50  __scrt_common_main_seh+11D  f:\dd\vctools\crt\vcstartup\src\startup\exe_common.inl line 253
+00000000777B59CD  000000000012FF80  BaseThreadInitThunk+D
+00000000779EA561  000000000012FFD0  RtlUserThreadStart+21
+
+Call stack:
+Address   Frame     Function      SourceFile
+0000000077A0C2EA  00000000026BFCB0  ZwWaitForMultipleObjects+A
+00000000779DA3C7  00000000026BFF50  TpIsTimerSet+9F7
+00000000777B59CD  00000000026BFF80  BaseThreadInitThunk+D
+00000000779EA561  00000000026BFFD0  RtlUserThreadStart+21
+
+Call stack:
+Address   Frame     Function      SourceFile
+0000000077A0C07A  000000000280FD40  NtDelayExecution+A
+000007FEFD841203  000000000280FDE0  SleepEx+B3
+000007FEF1851F9C  000000000280FE30  _Thrd_sleep+3C
+000000014007A631  000000000280FE80  MaNGOS::Thread::Sleep+81  c:\mangos\src\shared\threading.cpp line 137
+000000014008505A  000000000280FEB0  SqlDelayThread::run+4A  c:\mangos\src\shared\database\sqldelaythread.cpp line 50
+000000014007A6E5  000000000280FEF0  std::_LaunchPad<std::unique_ptr<std::tuple<void (__cdecl*)(void * __ptr64),void * __ptr64>,std::default_delete<std::tuple<void (__cdecl*)(void * __ptr64),void * __ptr64> > > >::_Run+75  c:\program files (x86)\microsoft visual studio 14.0\vc\include\thr\xthread line 247
+0000000140024089  000000000280FF20  std::_Pad::_Call_func+9  c:\program files (x86)\microsoft visual studio 14.0\vc\include\thr\xthread line 210
+000007FEF195BE1D  000000000280FF50  _crt_at_quick_exit+7D
+00000000777B59CD  000000000280FF80  BaseThreadInitThunk+D
+00000000779EA561  000000000280FFD0  RtlUserThreadStart+21
+
+Call stack:
+Address   Frame     Function      SourceFile
+0000000077A0CA0A  0000000002A1DF50  ZwGetContextThread+A
+00000000777A2A4A  0000000002A1DF80  GetThreadContext+A
+0000000140064F4E  0000000002A1E4B0  WheatyExceptionReport::printTracesForAllThreads+BE  c:\mangos\src\shared\wheatyexceptionreport.cpp line 281
+0000000140064042  0000000002A1EB40  WheatyExceptionReport::GenerateExceptionReport+322  c:\mangos\src\shared\wheatyexceptionreport.cpp line 380
+00000001400648A8  0000000002A1EDE0  WheatyExceptionReport::WheatyUnhandledExceptionFilter+148  c:\mangos\src\shared\wheatyexceptionreport.cpp line 107
+000000007783BC10  0000000002A1EEC0  UnhandledExceptionFilter+160
+0000000077A40108  0000000002A1EEF0  EtwEventSetInformation+1E08
+00000000779D7958  0000000002A1EF60  __C_specific_handler+9C
+00000000779E812D  0000000002A1EF90  RtlDecodePointer+AD
+00000000779D855F  0000000002A1F670  RtlUnwindEx+BBF
+0000000077A0BCB8  0000000002A1FD90  KiUserExceptionDispatcher+2E
+0000000140071C49  0000000002A1FDC0  SqlConnection::ExecuteStmt+29  c:\mangos\src\shared\database\database.cpp line 89
+0000000140083DDD  0000000002A1FE00  SqlPreparedRequest::Execute+4D  c:\mangos\src\shared\database\sqloperations.cpp line 82
+0000000140084E64  0000000002A1FE80  SqlDelayThread::ProcessRequests+154  c:\mangos\src\shared\database\sqldelaythread.cpp line 84
+0000000140085062  0000000002A1FEB0  SqlDelayThread::run+52  c:\mangos\src\shared\database\sqldelaythread.cpp line 52
+000000014007A6E5  0000000002A1FEF0  std::_LaunchPad<std::unique_ptr<std::tuple<void (__cdecl*)(void * __ptr64),void * __ptr64>,std::default_delete<std::tuple<void (__cdecl*)(void * __ptr64),void * __ptr64> > > >::_Run+75  c:\program files (x86)\microsoft visual studio 14.0\vc\include\thr\xthread line 247
+0000000140024089  0000000002A1FF20  std::_Pad::_Call_func+9  c:\program files (x86)\microsoft visual studio 14.0\vc\include\thr\xthread line 210
+000007FEF195BE1D  0000000002A1FF50  _crt_at_quick_exit+7D
+00000000777B59CD  0000000002A1FF80  BaseThreadInitThunk+D
+00000000779EA561  0000000002A1FFD0  RtlUserThreadStart+21
+
+Call stack:
+Address   Frame     Function      SourceFile
+0000000077A0C07A  0000000002B1FD40  NtDelayExecution+A
+000007FEFD841203  0000000002B1FDE0  SleepEx+B3
+000007FEF1851F9C  0000000002B1FE30  _Thrd_sleep+3C
+000000014007A631  0000000002B1FE80  MaNGOS::Thread::Sleep+81  c:\mangos\src\shared\threading.cpp line 137
+000000014008505A  0000000002B1FEB0  SqlDelayThread::run+4A  c:\mangos\src\shared\database\sqldelaythread.cpp line 50
+000000014007A6E5  0000000002B1FEF0  std::_LaunchPad<std::unique_ptr<std::tuple<void (__cdecl*)(void * __ptr64),void * __ptr64>,std::default_delete<std::tuple<void (__cdecl*)(void * __ptr64),void * __ptr64> > > >::_Run+75  c:\program files (x86)\microsoft visual studio 14.0\vc\include\thr\xthread line 247
+0000000140024089  0000000002B1FF20  std::_Pad::_Call_func+9  c:\program files (x86)\microsoft visual studio 14.0\vc\include\thr\xthread line 210
+000007FEF195BE1D  0000000002B1FF50  _crt_at_quick_exit+7D
+00000000777B59CD  0000000002B1FF80  BaseThreadInitThunk+D
+00000000779EA561  0000000002B1FFD0  RtlUserThreadStart+21
+
+Call stack:
+Address   Frame     Function      SourceFile
+0000000077A0BF5A  000000001874F830  NtRequestWaitReplyPort+A
+00000000777C18E8  000000001874F860  GetConsoleMode+F8
+00000000777F57F1  000000001874F9B0  VerifyConsoleIoHandle+281
+000000007780A9F2  000000001874FA90  ReadConsoleA+B2
+00000000777D7E64  000000001874FAD0  GetEnvironmentStringsA+6BD4
+000007FEF1956A67  000000001874FB70  _read+427
+000007FEF1956718  000000001874FBB0  _read+D8
+000007FEF196F740  000000001874FBE0  ungetwc+150
+000007FEF195D0B1  000000001874FC30  fgetpos+E1
+00000001400500DE  000000001874FEB0  CliRunnable::run+17E  c:\mangos\src\mangosd\clirunnable.cpp line 622
+000000014007A6E5  000000001874FEF0  std::_LaunchPad<std::unique_ptr<std::tuple<void (__cdecl*)(void * __ptr64),void * __ptr64>,std::default_delete<std::tuple<void (__cdecl*)(void * __ptr64),void * __ptr64> > > >::_Run+75  c:\program files (x86)\microsoft visual studio 14.0\vc\include\thr\xthread line 247
+0000000140024089  000000001874FF20  std::_Pad::_Call_func+9  c:\program files (x86)\microsoft visual studio 14.0\vc\include\thr\xthread line 210
+000007FEF195BE1D  000000001874FF50  _crt_at_quick_exit+7D
+00000000777B59CD  000000001874FF80  BaseThreadInitThunk+D
+00000000779EA561  000000001874FFD0  RtlUserThreadStart+21
+
+Call stack:
+Address   Frame     Function      SourceFile
+0000000077A0D63A  000000001954FCC0  NtWaitForWorkViaWorkerFactory+A
+00000000779DED15  000000001954FF50  RtlValidateHeap+155
+00000000777B59CD  000000001954FF80  BaseThreadInitThunk+D
+00000000779EA561  000000001954FFD0  RtlUserThreadStart+21
+========================
+Local Variables And Parameters
+
+Call stack:
+Address   Frame     Function      SourceFile
+0000000140071C49  0000000002A1FDC0  SqlConnection::ExecuteStmt+29  c:\mangos\src\shared\database\database.cpp line 89
+	Local  <user defined> 'this' = FFFFFFFFFFFFFFFE
+	Parameter  int 'nIndex' = 3FC700
+	Parameter  <user defined> 'id' = 3FC700
+
+0000000140083DDD  0000000002A1FE00  SqlPreparedRequest::Execute+4D  c:\mangos\src\shared\database\sqloperations.cpp line 82
+	Local  <user defined> 'this' = 0
+	Parameter  <user defined> 'conn' = 1
